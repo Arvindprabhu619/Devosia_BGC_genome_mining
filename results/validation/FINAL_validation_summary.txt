@@ -1,0 +1,98 @@
+======================================================================
+FINAL DEVOSIA GENOME VALIDATION
+CheckM2 + GTDB-Tk R232
+======================================================================
+
+CheckM2 genomes       : 137
+GTDB-Tk genomes       : 137
+Matched genomes       : 137
+
+FINAL STATUS
+----------------------------------------
+FINAL_RETAIN                   110
+CHECKM2_EXCLUDED               17
+NON_DEVOSIA                    10
+
+FINAL RETAINED DEVOSIA : 110
+FINAL FASTA COPIED     : 110
+FASTA MISSING          : 0
+
+GTDB-Tk GENUS DISTRIBUTION
+----------------------------------------
+Devosia                        88
+Devosia_A                      22
+
+GTDB-Tk SPECIES DISTRIBUTION
+----------------------------------------
+Devosia sp004005995                                5
+Devosia sp014127105                                5
+Devosia litorisediminis                            5
+Devosia sp001425445                                3
+Devosia_A sp001425235                              3
+Devosia equisanguinis                              3
+Devosia limi                                       2
+Devosia_A sp001899075                              2
+Devosia_A sp001899085                              2
+Devosia indica                                     2
+Devosia marina                                     2
+Devosia subaequoris                                2
+Devosia sp015234425                                2
+Devosia ureilytica                                 2
+Devosia sp900470445                                2
+Devosia nitrariae                                  2
+Devosia sp000735585                                1
+Devosia riboflavina                                1
+Devosia chinhatensis                               1
+Devosia soli                                       1
+Devosia epidermidihirudinis                        1
+Devosia_A sp001402915                              1
+Devosia sp001426345                                1
+Devosia sp001427605                                1
+Devosia sp001427875                                1
+Devosia elaeis                                     1
+Devosia_A sp001899065                              1
+Devosia submarina                                  1
+Devosia naphthalenivorans                          1
+Devosia sp005222805                                1
+Devosia ginsengisoli                               1
+Devosia pacifica                                   1
+Devosia oryzisoli                                  1
+Devosia beringensis                                1
+Devosia faecipullorum                              1
+Devosia sediminis                                  1
+Devosia oryziradicis                               1
+Devosia rhizoryzae                                 1
+Devosia_A sp017307495                              1
+Devosia salina                                     1
+Devosia sp021729885                                1
+Devosia lacusdianchii                              1
+Devosia ginsengisoli_A                             1
+Devosia sp025809055                                1
+Devosia sp028290435                                1
+Devosia sp028290625                                1
+Devosia_A sp028613635                              1
+Devosia sp029201545                                1
+Devosia yakushimensis                              1
+Devosia rhizosphaerae                              1
+Devosia sp030285925                                1
+Devosia sp037113415                                1
+Devosia sp040546795                                1
+Devosia sp040546815                                1
+Devosia polycyclovorans                            1
+Devosia honganensis                                1
+Devosia albogilva                                  1
+Devosia sp018828145                                1
+Devosia_A sp048261455                              1
+Devosia_A sp049354815                              1
+Devosia sp900110945                                1
+Devosia psychrophila                               1
+Devosia crocina                                    1
+Devosia lucknowensis                               1
+Devosia sp024707125                                1
+Devosia_A sp965229025                              1
+Devosia sp040509215                                1
+
+GTDB-Tk CLASSIFICATION METHODS
+----------------------------------------
+ani_screen                                         95
+taxonomic classification fully defined by topology 15

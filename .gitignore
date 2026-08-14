@@ -1,0 +1,88 @@
+# ============================================================
+# Devosia BGC genome mining
+# GitHub repository exclusions
+# ============================================================
+
+# ----------------------------
+# Raw / large biological data
+# ----------------------------
+*.fna
+*.fa
+*.fasta
+*.faa
+*.fastq
+*.fq
+*.fastq.gz
+*.fq.gz
+*.gbk
+*.gbff
+*.gff
+*.gff3
+*.bam
+*.sam
+*.cram
+*.vcf
+*.vcf.gz
+
+# ----------------------------
+# Large analysis directories
+# ----------------------------
+antismash_output/
+bigscape_output*/
+genomes/
+gff/
+proteins/
+chunks/
+batch_zips/
+devosia_raw_merge/
+checkm2_out/
+
+# ----------------------------
+# Temporary/intermediate files
+# ----------------------------
+*.tmp
+*.temp
+*.swp
+*.swo
+*.pid
+*.lock
+
+# ----------------------------
+# Logs
+# ----------------------------
+*.log
+*.out
+*.err
+
+# ----------------------------
+# Python cache
+# ----------------------------
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# ----------------------------
+# R temporary files
+# ----------------------------
+.Rhistory
+.RData
+.Rproj.user/
+
+# ----------------------------
+# OS / editor files
+# ----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ----------------------------
+# Local environments
+# ----------------------------
+.env
+.venv/
+venv/
+conda-env/
+
+# Local safety backups
+scripts_PRE_CLEANUP_*/

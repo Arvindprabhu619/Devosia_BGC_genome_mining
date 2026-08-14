@@ -1,0 +1,4 @@
+GCF	Genomes	Prevalence_pct	BGC_regions	BGC_classes	Products	Category	Candidate_priority
+FAM_00321	109	99.09	109	terpene	terpene	Core	3
+FAM_00355	25	22.73	25	other	ectoine;hydrogen-cyanide	Intermediate	2
+FAM_00260	7	6.36	10	PKS	T3PKS	Rare	1
