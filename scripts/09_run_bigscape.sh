@@ -2,15 +2,9 @@
 # ============================================================
 # scripts/09_run_bigscape.sh
 # ============================================================
-# Purpose: Cluster BGCs into Gene Cluster Families with BiG-SCAPE.
+# Purpose: Cluster BGCs into Gene Cluster Families with BiG-SCAPE 2.0.3
 #
-# Inputs:   results/06_antismash/raw_output/*/*.gbk
-# Outputs:
-#   results/09_bigscape/raw_output/
-#   results/09_bigscape/parsed/gcf_assignments_c{0.3,0.5,0.7}.tsv
-#
-# Tool:     BiG-SCAPE 2.0.3
-# Runtime:  2-4 hr
+# Uses antiSMASH 7 per-region GBK files (region*.gbk).
 # ============================================================
 set -euo pipefail
 source "$(dirname "$0")/00_paths.sh"
@@ -26,36 +20,43 @@ if [[ ! -f "$PFAM_HMM" ]]; then
     exit 1
 fi
 
+rm -rf "${RES_BIGSCAPE}/input"
+rm -rf "${RES_BIGSCAPE}/raw_output"
 mkdir -p "${RES_BIGSCAPE}/input"
 mkdir -p "${RES_BIGSCAPE}/raw_output"
-mkdir -p "${RES_BIGSCAPE}/parsed"
 
-# ---- Collect GBK files ----
-echo "[09.1] Collecting antiSMASH GenBank files..."
+# ---- Collect region-level GBK files ----
+echo "[09.1] Collecting antiSMASH region GBK files..."
 n=0
-for gbk in "${RES_ANTISMASH}"/raw_output/*/*.gbk; do
+for gbk in "${RES_ANTISMASH}"/raw_output/*/*.region*.gbk; do
     [[ -f "$gbk" ]] || continue
-    # Skip region files
-    [[ "$gbk" == *".region"* ]] && continue
-    [[ "$gbk" == *".final"* ]] && continue
+    base=$(basename "$gbk")
     acc=$(basename "$(dirname "$gbk")")
-    ln -sf "$gbk" "${RES_BIGSCAPE}/input/${acc}.gbk"
+    region=$(echo "$base" | sed 's/.*\.region/region/;s/\.gbk//')
+    ln -sf "$gbk" "${RES_BIGSCAPE}/input/${acc}_${region}.gbk"
     n=$((n + 1))
 done
-echo "  Linked $n GenBank files"
+echo "  Linked $n region GBK files"
 
-# ---- Run BiG-SCAPE ----
-echo "[09.2] Running BiG-SCAPE (2-4 hr)..."
+if [[ $n -eq 0 ]]; then
+    echo "ERROR: No region GBK files found."
+    exit 1
+fi
 
-$BIGSCAPE \
+# ---- Run BiG-SCAPE 2.0 ----
+echo "[09.2] Running BiG-SCAPE cluster (2-4 hr)..."
+
+$BIGSCAPE cluster \
     --input-dir "${RES_BIGSCAPE}/input" \
     --output-dir "${RES_BIGSCAPE}/raw_output" \
     --pfam-path "$PFAM_HMM" \
-    --mibig-version 3.1 \
-    --cutoffs 0.3 0.5 0.7 \
+    -m 3.1 \
+    --gcf-cutoffs 0.3,0.5,0.7 \
     --include-singletons \
-    --cpus "$N_CPUS" \
-    --verbose
+    --include-gbk "*" \
+    --classify category \
+    -c "$N_CPUS" \
+    -v
 
 echo "[09.3] BiG-SCAPE complete."
 find "${RES_BIGSCAPE}/raw_output" -type f | wc -l | xargs echo "  Output files:"
