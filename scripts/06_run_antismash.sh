@@ -1,15 +1,10 @@
 #!/usr/bin/env bash
 # ============================================================
 # scripts/06_run_antismash.sh
-#
-# Purpose: Predict biosynthetic gene clusters (BGCs) in each genome.
-# Inputs:  results/04_gtdbtk/final_genome_list.txt (Devosia + Devosia_A)
-#          Genome FASTA + GFF3 from manifest
-# Outputs: results/06_antismash/raw_output/<accession>/  (per-genome)
-#          results/06_antismash/summary.txt
-#
-# Tool: antiSMASH 7.1.0
-# Runtime: 12-24 hours (with 16 parallel genomes)
+# Purpose: Predict BGCs in each genome with antiSMASH 7.1.0
+# Inputs:  results/04_gtdbtk/final_genome_list.txt
+# Outputs: results/06_antismash/raw_output/<acc>/<acc>.gbk
+# Runtime: 12-24 hours
 # ============================================================
 
 set -euo pipefail
@@ -28,21 +23,19 @@ fi
 
 mkdir -p "${RES_ANTISMASH}/raw_output"
 mkdir -p "${RES_ANTISMASH}/input"
+mkdir -p "${RES_ANTISMASH}/logs"
 
-# Prepare input: copy FASTA + GFF3 for each final genome
+# Prepare inputs
 echo "[06.1] Preparing input files..."
 n=0
 while read -r acc; do
     [[ -z "$acc" ]] && continue
-    # Look up paths in manifest
     fasta=$(awk -F'\t' -v a="$acc" '$1==a {print $2}' "${DATA_META}/genome_manifest.tsv")
     gff=$(awk -F'\t' -v a="$acc" '$1==a {print $3}' "${DATA_META}/genome_manifest.tsv")
-
     if [[ -z "$fasta" || ! -f "$fasta" ]]; then
-        echo "  WARNING: no FASTA for $acc, skipping"
+        echo "  WARNING: no FASTA for $acc"
         continue
     fi
-
     ln -sf "$fasta" "${RES_ANTISMASH}/input/${acc}.fna"
     if [[ -n "$gff" && -f "$gff" ]]; then
         ln -sf "$gff" "${RES_ANTISMASH}/input/${acc}.gff"
@@ -51,19 +44,19 @@ while read -r acc; do
 done < "$FINAL_LIST"
 echo "  Prepared $n genomes"
 
-# Run antiSMASH in parallel
-echo "[06.2] Running antiSMASH in parallel (12-24 hours)..."
-
+# Run function — log OUTSIDE the output dir
 run_one() {
     local acc="$1"
     local fasta="${RES_ANTISMASH}/input/${acc}.fna"
     local outdir="${RES_ANTISMASH}/raw_output/${acc}"
+    local logdir="${RES_ANTISMASH}/logs"
 
-    [[ -d "$outdir" ]] && return 0
-
+    # Completely remove anything from prior attempts
+    rm -rf "$outdir"
     mkdir -p "$outdir"
 
-    $ANTI_SMASH \
+    # Run antiSMASH — redirect log to SEPARATE logdir
+    "$ANTI_SMASH" \
         --output-dir "$outdir" \
         --cpus 4 \
         --cb-general \
@@ -72,10 +65,9 @@ run_one() {
         --asf \
         --pfam2go \
         --rre \
-        --smcogs \
         --genefinding-tool prodigal \
         --minlength 1000 \
-        "$fasta" > "${outdir}/antismash.stdout.log" 2>&1
+        "$fasta" > "${logdir}/${acc}.log" 2>&1
 
     if [[ -f "${outdir}/${acc}.gbk" ]]; then
         echo "DONE: $acc"
@@ -87,11 +79,11 @@ run_one() {
 export -f run_one
 export ANTI_SMASH RES_ANTISMASH
 
-# Run 4 genomes in parallel (each uses 4 CPUs = 16 total)
+echo "[06.2] Running antiSMASH in parallel (12-24 hours)..."
 cat "$FINAL_LIST" | xargs -P 4 -I {} bash -c 'run_one "$@"' _ {}
 
-echo "[06.3] antiSMASH complete. Summary:"
-echo "  Successful: $(find ${RES_ANTISMASH}/raw_output -name "*.gbk" | wc -l)"
-echo "  Failed:     $(find ${RES_ANTISMASH}/raw_output -name "antismash.stdout.log" -exec grep -L "antiSMASH" {} \; | wc -l)"
+echo "[06.3] Summary:"
+echo "  Successful: $(find ${RES_ANTISMASH}/raw_output -name "*.gbk" 2>/dev/null | wc -l)"
+echo "  Failed:     $(find ${RES_ANTISMASH}/raw_output -type d 2>/dev/null | tail -n +2 | while read d; do [[ ! -f "$d"/*.gbk ]] && echo X; done | wc -l)"
 
 echo "=== [06] Done: $(date) ==="
