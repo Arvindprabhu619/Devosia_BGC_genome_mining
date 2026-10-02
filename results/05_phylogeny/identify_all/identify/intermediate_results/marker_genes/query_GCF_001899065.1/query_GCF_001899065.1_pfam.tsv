@@ -23,7 +23,7 @@
 #                           Rob Finn (rdf@sanger.ac.uk)                            #
 #                Python authors: Aaron Mussig (a.mussig@uq.edu.au)                 #
 # ================================================================================ #
-# Execution time:           2026-10-02 22:26:14.979578
+# Execution time:           2026-10-02 22:34:23.828677
 # Query sequence file:      results/05_phylogeny/identify_all/identify/intermediate_results/marker_genes/query_GCF_001899065.1/query_GCF_001899065.1_protein.faa
 # CPU threads:              1
 # Searching against:        /dgxb_home/se26plsc001/arvind/Devosia_BGC/data/databases/gtdbtk_r232/release232/markers/pfam/Pfam-A.hmm

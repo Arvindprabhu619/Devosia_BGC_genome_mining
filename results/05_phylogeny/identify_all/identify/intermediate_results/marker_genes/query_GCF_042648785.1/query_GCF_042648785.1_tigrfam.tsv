@@ -125,5 +125,5 @@ NZ_JBHRYD010000005.1_329 -          TIGR03953            TIGR03953    2.6e-67  2
 # Target file:     results/05_phylogeny/identify_all/identify/intermediate_results/marker_genes/query_GCF_042648785.1/query_GCF_042648785.1_protein.faa
 # Option settings: hmmsearch -o results/05_phylogeny/identify_all/identify/intermediate_results/marker_genes/query_GCF_042648785.1/query_GCF_042648785.1_tigrfam.out --tblout results/05_phylogeny/identify_all/identify/intermediate_results/marker_genes/query_GCF_042648785.1/query_GCF_042648785.1_tigrfam.tsv --noali --notextw --cut_nc --cpu 1 /dgxb_home/se26plsc001/arvind/Devosia_BGC/data/databases/gtdbtk_r232/release232/markers/tigrfam/tigrfam.hmm results/05_phylogeny/identify_all/identify/intermediate_results/marker_genes/query_GCF_042648785.1/query_GCF_042648785.1_protein.faa 
 # Current dir:     /dgxb_home/se26plsc001/arvind/Devosia_BGC
-# Date:            Fri Oct  2 22:26:07 2026
+# Date:            Fri Oct  2 22:34:16 2026
 # [ok]

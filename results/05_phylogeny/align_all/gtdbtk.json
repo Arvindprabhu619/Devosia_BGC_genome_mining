@@ -1,0 +1,9 @@
+{
+    "version": "2.7.2",
+    "command_line": "gtdbtk align --identify_dir results/05_phylogeny/identify_all/identify --out_dir results/05_phylogeny/align_all --cpus 16",
+    "database_version": "r232",
+    "database_path": "/dgxb_home/se26plsc001/arvind/Devosia_BGC/data/databases/gtdbtk_r232/release232",
+    "steps": [],
+    "output_dir": "results/05_phylogeny/align_all",
+    "path": "results/05_phylogeny/align_all/gtdbtk.json"
+}

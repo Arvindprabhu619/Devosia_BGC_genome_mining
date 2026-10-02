@@ -41,8 +41,8 @@ Passed Vit filter:                         9  (0.00213878); expected 4.2 (0.001)
 Passed Fwd filter:                         2  (0.000475285); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
-# Mc/sec: 18261.49
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.04
+# Mc/sec: 9235.52
 //
 Query:       TIGR00019  [M=361]
 Accession:   TIGR00019
@@ -72,8 +72,8 @@ Passed Vit filter:                        11  (0.00261407); expected 4.2 (0.001)
 Passed Fwd filter:                         3  (0.000712928); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.03
-# Mc/sec: 15204.15
+# CPU time: 0.03u 0.01s 00:00:00.04 Elapsed: 00:00:00.02
+# Mc/sec: 15830.17
 //
 Query:       TIGR00020  [M=365]
 Accession:   TIGR00020
@@ -103,8 +103,8 @@ Passed Vit filter:                         7  (0.0016635); expected 4.2 (0.001)
 Passed Fwd filter:                         3  (0.000712928); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.05
-# Mc/sec: 8463.43
+# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.07
+# Mc/sec: 6289.95
 //
 Query:       TIGR00029  [M=87]
 Accession:   TIGR00029
@@ -134,8 +134,8 @@ Passed Vit filter:                         6  (0.00142586); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.01u 0.01s 00:00:00.02 Elapsed: 00:00:00.03
-# Mc/sec: 3055.44
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
+# Mc/sec: 4076.50
 //
 Query:       TIGR00037  [M=130]
 Accession:   TIGR00037
@@ -163,8 +163,8 @@ Passed Vit filter:                         4  (0.00095057); expected 4.2 (0.001)
 Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               0  [number of targets reported over threshold]
-# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.03
-# Mc/sec: 5103.95
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.02
+# Mc/sec: 7674.04
 //
 Query:       TIGR00043  [M=111]
 Accession:   TIGR00043
@@ -195,7 +195,7 @@ Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
 # CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
-# Mc/sec: 5379.67
+# Mc/sec: 6884.12
 //
 Query:       TIGR00054  [M=421]
 Accession:   TIGR00054
@@ -226,8 +226,8 @@ Passed Vit filter:                        17  (0.00403992); expected 4.2 (0.001)
 Passed Fwd filter:                         4  (0.00095057); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.06u 0.00s 00:00:00.06 Elapsed: 00:00:00.07
-# Mc/sec: 7128.46
+# CPU time: 0.05u 0.01s 00:00:00.06 Elapsed: 00:00:00.07
+# Mc/sec: 6886.86
 //
 Query:       TIGR00059  [M=112]
 Accession:   TIGR00059
@@ -257,8 +257,8 @@ Passed Vit filter:                         4  (0.00095057); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.02u 0.01s 00:00:00.03 Elapsed: 00:00:00.02
-# Mc/sec: 6307.63
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.01
+# Mc/sec: 12545.73
 //
 Query:       TIGR00061  [M=101]
 Accession:   TIGR00061
@@ -289,7 +289,7 @@ Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
 # CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.01
-# Mc/sec: 11309.91
+# Mc/sec: 7906.90
 //
 Query:       TIGR00064  [M=279]
 Accession:   TIGR00064
@@ -320,7 +320,7 @@ Passed Fwd filter:                        14  (0.003327); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
 # CPU time: 0.05u 0.00s 00:00:00.05 Elapsed: 00:00:00.05
-# Mc/sec: 6072.45
+# Mc/sec: 6405.05
 //
 Query:       TIGR00065  [M=353]
 Accession:   TIGR00065
@@ -350,8 +350,8 @@ Passed Vit filter:                        16  (0.00380228); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.03u 0.01s 00:00:00.04 Elapsed: 00:00:00.03
-# Mc/sec: 11483.71
+# CPU time: 0.03u 0.01s 00:00:00.04 Elapsed: 00:00:00.05
+# Mc/sec: 8138.74
 //
 Query:       TIGR00082  [M=115]
 Accession:   TIGR00082
@@ -381,8 +381,8 @@ Passed Vit filter:                         3  (0.000712928); expected 4.2 (0.001
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.03
-# Mc/sec: 4026.52
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
+# Mc/sec: 6533.28
 //
 Query:       TIGR00083  [M=290]
 Accession:   TIGR00083
@@ -412,8 +412,8 @@ Passed Vit filter:                         7  (0.0016635); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
-# Mc/sec: 17061.91
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.06
+# Mc/sec: 6006.91
 //
 Query:       TIGR00084  [M=192]
 Accession:   TIGR00084
@@ -444,7 +444,7 @@ Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
 # CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.03
-# Mc/sec: 7921.83
+# Mc/sec: 7510.32
 //
 Query:       TIGR00086  [M=144]
 Accession:   TIGR00086
@@ -474,8 +474,8 @@ Passed Vit filter:                         7  (0.0016635); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
-# Mc/sec: 8844.32
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.01
+# Mc/sec: 11889.25
 //
 Query:       TIGR00088  [M=233]
 Accession:   TIGR00088
@@ -505,8 +505,8 @@ Passed Vit filter:                         7  (0.0016635); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.02
-# Mc/sec: 10253.76
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.03
+# Mc/sec: 8001.45
 //
 Query:       TIGR00090  [M=99]
 Accession:   TIGR00090
@@ -536,8 +536,8 @@ Passed Vit filter:                         9  (0.00213878); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.03
-# Mc/sec: 3866.96
+# CPU time: 0.01u 0.01s 00:00:00.02 Elapsed: 00:00:00.02
+# Mc/sec: 4473.22
 //
 Query:       TIGR00092  [M=368]
 Accession:   TIGR00092
@@ -568,7 +568,7 @@ Passed Fwd filter:                         4  (0.00095057); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
 # CPU time: 0.05u 0.00s 00:00:00.05 Elapsed: 00:00:00.05
-# Mc/sec: 8473.11
+# Mc/sec: 8298.02
 //
 Query:       TIGR00095  [M=194]
 Accession:   TIGR00095
@@ -598,8 +598,8 @@ Passed Vit filter:                        11  (0.00261407); expected 4.2 (0.001)
 Passed Fwd filter:                         3  (0.000712928); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.02
-# Mc/sec: 11105.23
+# CPU time: 0.02u 0.01s 00:00:00.03 Elapsed: 00:00:00.04
+# Mc/sec: 5193.98
 //
 Query:       TIGR00111  [M=351]
 Accession:   TIGR00111
@@ -627,8 +627,8 @@ Passed Vit filter:                         3  (0.000712928); expected 4.2 (0.001
 Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               0  [number of targets reported over threshold]
-# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.04
-# Mc/sec: 9938.55
+# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.03
+# Mc/sec: 12087.29
 //
 Query:       TIGR00115  [M=410]
 Accession:   TIGR00115
@@ -658,8 +658,8 @@ Passed Vit filter:                        16  (0.00380228); expected 4.2 (0.001)
 Passed Fwd filter:                         2  (0.000475285); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.05u 0.00s 00:00:00.05 Elapsed: 00:00:00.05
-# Mc/sec: 8981.84
+# CPU time: 0.05u 0.00s 00:00:00.05 Elapsed: 00:00:00.04
+# Mc/sec: 10446.16
 //
 Query:       TIGR00116  [M=293]
 Accession:   TIGR00116
@@ -689,8 +689,8 @@ Passed Vit filter:                         8  (0.00190114); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.03u 0.01s 00:00:00.04 Elapsed: 00:00:00.04
-# Mc/sec: 8507.72
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.02
+# Mc/sec: 12481.26
 //
 Query:       TIGR00134  [M=622]
 Accession:   TIGR00134
@@ -718,8 +718,8 @@ Passed Vit filter:                         5  (0.00118821); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               0  [number of targets reported over threshold]
-# CPU time: 0.06u 0.00s 00:00:00.06 Elapsed: 00:00:00.09
-# Mc/sec: 8481.40
+# CPU time: 0.06u 0.00s 00:00:00.06 Elapsed: 00:00:00.06
+# Mc/sec: 11360.64
 //
 Query:       TIGR00138  [M=183]
 Accession:   TIGR00138
@@ -749,8 +749,8 @@ Passed Vit filter:                        12  (0.00285171); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.03
-# Mc/sec: 6658.40
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
+# Mc/sec: 8802.63
 //
 Query:       TIGR00158  [M=148]
 Accession:   TIGR00158
@@ -780,8 +780,8 @@ Passed Vit filter:                         3  (0.000712928); expected 4.2 (0.001
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
-# Mc/sec: 6728.09
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.01
+# Mc/sec: 9890.90
 //
 Query:       TIGR00166  [M=95]
 Accession:   TIGR00166
@@ -811,8 +811,8 @@ Passed Vit filter:                         8  (0.00190114); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.01
-# Mc/sec: 6983.48
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.02
+# Mc/sec: 4837.11
 //
 Query:       TIGR00168  [M=165]
 Accession:   TIGR00168
@@ -842,8 +842,8 @@ Passed Vit filter:                         6  (0.00142586); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
-# Mc/sec: 9091.91
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.04
+# Mc/sec: 4663.79
 //
 Query:       TIGR00186  [M=240]
 Accession:   TIGR00186
@@ -873,8 +873,8 @@ Passed Vit filter:                        11  (0.00261407); expected 4.2 (0.001)
 Passed Fwd filter:                         3  (0.000712928); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.03u 0.01s 00:00:00.04 Elapsed: 00:00:00.03
-# Mc/sec: 8282.98
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.04
+# Mc/sec: 6726.47
 //
 Query:       TIGR00194  [M=574]
 Accession:   TIGR00194
@@ -904,8 +904,8 @@ Passed Vit filter:                         9  (0.00213878); expected 4.2 (0.001)
 Passed Fwd filter:                         3  (0.000712928); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.04u 0.01s 00:00:00.05 Elapsed: 00:00:00.07
-# Mc/sec: 9802.00
+# CPU time: 0.06u 0.00s 00:00:00.06 Elapsed: 00:00:00.06
+# Mc/sec: 12131.32
 //
 Query:       TIGR00250  [M=130]
 Accession:   TIGR00250
@@ -936,7 +936,7 @@ Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
 # CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
-# Mc/sec: 7444.06
+# Mc/sec: 5726.84
 //
 Query:       TIGR00279  [M=172]
 Accession:   TIGR00279
@@ -965,7 +965,7 @@ Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               0  [number of targets reported over threshold]
 # CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.03
-# Mc/sec: 6687.62
+# Mc/sec: 5998.00
 //
 Query:       TIGR00291  [M=231]
 Accession:   TIGR00291
@@ -993,8 +993,8 @@ Passed Vit filter:                         5  (0.00118821); expected 4.2 (0.001)
 Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               0  [number of targets reported over threshold]
-# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
-# Mc/sec: 14423.57
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.01
+# Mc/sec: 18448.30
 //
 Query:       TIGR00323  [M=215]
 Accession:   TIGR00323
@@ -1022,8 +1022,8 @@ Passed Vit filter:                         9  (0.00213878); expected 4.2 (0.001)
 Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               0  [number of targets reported over threshold]
-# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
-# Mc/sec: 13285.54
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.03
+# Mc/sec: 7991.74
 //
 Query:       TIGR00335  [M=324]
 Accession:   TIGR00335
@@ -1051,8 +1051,8 @@ Passed Vit filter:                         4  (0.00095057); expected 4.2 (0.001)
 Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               0  [number of targets reported over threshold]
-# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.01
-# Mc/sec: 20940.39
+# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.02
+# Mc/sec: 15310.00
 //
 Query:       TIGR00337  [M=526]
 Accession:   TIGR00337
@@ -1082,8 +1082,8 @@ Passed Vit filter:                        16  (0.00380228); expected 4.2 (0.001)
 Passed Fwd filter:                         5  (0.00118821); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.06u 0.01s 00:00:00.06 Elapsed: 00:00:00.06
-# Mc/sec: 10781.77
+# CPU time: 0.05u 0.01s 00:00:00.06 Elapsed: 00:00:00.05
+# Mc/sec: 11850.45
 //
 Query:       TIGR00344  [M=847]
 Accession:   TIGR00344
@@ -1113,8 +1113,8 @@ Passed Vit filter:                         9  (0.00213878); expected 4.2 (0.001)
 Passed Fwd filter:                         2  (0.000475285); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.08u 0.01s 00:00:00.09 Elapsed: 00:00:00.08
-# Mc/sec: 13126.66
+# CPU time: 0.09u 0.00s 00:00:00.09 Elapsed: 00:00:00.10
+# Mc/sec: 10500.57
 //
 Query:       TIGR00362  [M=437]
 Accession:   TIGR00362
@@ -1144,8 +1144,8 @@ Passed Vit filter:                        27  (0.00641635); expected 4.2 (0.001)
 Passed Fwd filter:                         6  (0.00142586); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.06u 0.01s 00:00:00.06 Elapsed: 00:00:00.06
-# Mc/sec: 9199.66
+# CPU time: 0.06u 0.00s 00:00:00.06 Elapsed: 00:00:00.07
+# Mc/sec: 7316.04
 //
 Query:       TIGR00373  [M=162]
 Accession:   TIGR00373
@@ -1173,8 +1173,8 @@ Passed Vit filter:                        12  (0.00285171); expected 4.2 (0.001)
 Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               0  [number of targets reported over threshold]
-# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.01
-# Mc/sec: 13075.85
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.02
+# Mc/sec: 6954.30
 //
 Query:       TIGR00382  [M=414]
 Accession:   TIGR00382
@@ -1208,8 +1208,8 @@ Passed Vit filter:                        68  (0.0161597); expected 4.2 (0.001)
 Passed Fwd filter:                        12  (0.00285171); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               2  [number of targets reported over threshold]
-# CPU time: 0.09u 0.00s 00:00:00.09 Elapsed: 00:00:00.12
-# Mc/sec: 4205.05
+# CPU time: 0.09u 0.00s 00:00:00.09 Elapsed: 00:00:00.13
+# Mc/sec: 3980.72
 //
 Query:       TIGR00392  [M=861]
 Accession:   TIGR00392
@@ -1239,8 +1239,8 @@ Passed Vit filter:                        13  (0.00308935); expected 4.2 (0.001)
 Passed Fwd filter:                         7  (0.0016635); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.17u 0.01s 00:00:00.18 Elapsed: 00:00:00.18
-# Mc/sec: 5968.51
+# CPU time: 0.17u 0.02s 00:00:00.19 Elapsed: 00:00:00.19
+# Mc/sec: 5537.36
 //
 Query:       TIGR00396  [M=843]
 Accession:   TIGR00396
@@ -1270,8 +1270,8 @@ Passed Vit filter:                        10  (0.00237643); expected 4.2 (0.001)
 Passed Fwd filter:                         5  (0.00118821); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.13u 0.01s 00:00:00.14 Elapsed: 00:00:00.14
-# Mc/sec: 7358.41
+# CPU time: 0.14u 0.01s 00:00:00.15 Elapsed: 00:00:00.13
+# Mc/sec: 7912.92
 //
 Query:       TIGR00398  [M=530]
 Accession:   TIGR00398
@@ -1302,7 +1302,7 @@ Passed Fwd filter:                         8  (0.00190114); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
 # CPU time: 0.09u 0.01s 00:00:00.10 Elapsed: 00:00:00.10
-# Mc/sec: 6384.41
+# Mc/sec: 6725.69
 //
 Query:       TIGR00405  [M=145]
 Accession:   TIGR00405
@@ -1330,8 +1330,8 @@ Passed Vit filter:                         5  (0.00118821); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               0  [number of targets reported over threshold]
-# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.03
-# Mc/sec: 5104.85
+# CPU time: 0.02u 0.01s 00:00:00.03 Elapsed: 00:00:00.03
+# Mc/sec: 5642.38
 //
 Query:       TIGR00414  [M=418]
 Accession:   TIGR00414
@@ -1361,8 +1361,8 @@ Passed Vit filter:                         9  (0.00213878); expected 4.2 (0.001)
 Passed Fwd filter:                         3  (0.000712928); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.06u 0.00s 00:00:00.06 Elapsed: 00:00:00.06
-# Mc/sec: 7925.95
+# CPU time: 0.05u 0.00s 00:00:00.05 Elapsed: 00:00:00.05
+# Mc/sec: 9757.98
 //
 Query:       TIGR00416  [M=454]
 Accession:   TIGR00416
@@ -1392,8 +1392,8 @@ Passed Vit filter:                        47  (0.0111692); expected 4.2 (0.001)
 Passed Fwd filter:                         9  (0.00213878); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.08u 0.01s 00:00:00.09 Elapsed: 00:00:00.09
-# Mc/sec: 6295.30
+# CPU time: 0.08u 0.00s 00:00:00.08 Elapsed: 00:00:00.09
+# Mc/sec: 6253.89
 //
 Query:       TIGR00420  [M=351]
 Accession:   TIGR00420
@@ -1423,8 +1423,8 @@ Passed Vit filter:                        12  (0.00285171); expected 4.2 (0.001)
 Passed Fwd filter:                         3  (0.000712928); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.03
-# Mc/sec: 12198.91
+# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.03
+# Mc/sec: 11359.10
 //
 Query:       TIGR00431  [M=210]
 Accession:   TIGR00431
@@ -1455,7 +1455,7 @@ Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
 # CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
-# Mc/sec: 10837.76
+# Mc/sec: 11255.30
 //
 Query:       TIGR00435  [M=466]
 Accession:   TIGR00435
@@ -1485,8 +1485,8 @@ Passed Vit filter:                        11  (0.00261407); expected 4.2 (0.001)
 Passed Fwd filter:                         7  (0.0016635); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.07u 0.00s 00:00:00.07 Elapsed: 00:00:00.06
-# Mc/sec: 9186.96
+# CPU time: 0.07u 0.00s 00:00:00.07 Elapsed: 00:00:00.07
+# Mc/sec: 8310.37
 //
 Query:       TIGR00436  [M=270]
 Accession:   TIGR00436
@@ -1521,7 +1521,7 @@ Passed Fwd filter:                        14  (0.003327); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               2  [number of targets reported over threshold]
 # CPU time: 0.07u 0.00s 00:00:00.07 Elapsed: 00:00:00.07
-# Mc/sec: 4390.96
+# Mc/sec: 4567.41
 //
 Query:       TIGR00442  [M=406]
 Accession:   TIGR00442
@@ -1551,8 +1551,8 @@ Passed Vit filter:                        17  (0.00403992); expected 4.2 (0.001)
 Passed Fwd filter:                         6  (0.00142586); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.05u 0.00s 00:00:00.05 Elapsed: 00:00:00.06
-# Mc/sec: 7689.49
+# CPU time: 0.06u 0.00s 00:00:00.06 Elapsed: 00:00:00.06
+# Mc/sec: 8478.89
 //
 Query:       TIGR00445  [M=321]
 Accession:   TIGR00445
@@ -1582,8 +1582,8 @@ Passed Vit filter:                         4  (0.00095057); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.03
-# Mc/sec: 12806.22
+# CPU time: 0.03u 0.01s 00:00:00.04 Elapsed: 00:00:00.05
+# Mc/sec: 7423.06
 //
 Query:       TIGR00448  [M=179]
 Accession:   TIGR00448
@@ -1611,8 +1611,8 @@ Passed Vit filter:                         7  (0.0016635); expected 4.2 (0.001)
 Passed Fwd filter:                         3  (0.000712928); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               0  [number of targets reported over threshold]
-# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.04
-# Mc/sec: 5221.01
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.03
+# Mc/sec: 7130.70
 //
 Query:       TIGR00456  [M=569]
 Accession:   TIGR00456
@@ -1642,8 +1642,8 @@ Passed Vit filter:                        13  (0.00308935); expected 4.2 (0.001)
 Passed Fwd filter:                         3  (0.000712928); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.07u 0.00s 00:00:00.07 Elapsed: 00:00:00.08
-# Mc/sec: 8570.43
+# CPU time: 0.08u 0.00s 00:00:00.08 Elapsed: 00:00:00.07
+# Mc/sec: 9944.47
 //
 Query:       TIGR00459  [M=586]
 Accession:   TIGR00459
@@ -1673,8 +1673,8 @@ Passed Vit filter:                        10  (0.00237643); expected 4.2 (0.001)
 Passed Fwd filter:                         3  (0.000712928); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.06u 0.00s 00:00:00.06 Elapsed: 00:00:00.05
-# Mc/sec: 12631.68
+# CPU time: 0.05u 0.00s 00:00:00.05 Elapsed: 00:00:00.09
+# Mc/sec: 8037.84
 //
 Query:       TIGR00460  [M=315]
 Accession:   TIGR00460
@@ -1704,8 +1704,8 @@ Passed Vit filter:                         9  (0.00213878); expected 4.2 (0.001)
 Passed Fwd filter:                         3  (0.000712928); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.03u 0.01s 00:00:00.04 Elapsed: 00:00:00.04
-# Mc/sec: 8134.71
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.03
+# Mc/sec: 11949.52
 //
 Query:       TIGR00468  [M=324]
 Accession:   TIGR00468
@@ -1736,7 +1736,7 @@ Passed Fwd filter:                         2  (0.000475285); expected 0.0 (1e-05
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
 # CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.04
-# Mc/sec: 9859.73
+# Mc/sec: 8569.38
 //
 Query:       TIGR00472  [M=798]
 Accession:   TIGR00472
@@ -1766,8 +1766,8 @@ Passed Vit filter:                         4  (0.00095057); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.08u 0.00s 00:00:00.08 Elapsed: 00:00:00.08
-# Mc/sec: 11323.73
+# CPU time: 0.06u 0.01s 00:00:00.06 Elapsed: 00:00:00.07
+# Mc/sec: 13709.78
 //
 Query:       TIGR00483  [M=427]
 Accession:   TIGR00483
@@ -1795,8 +1795,8 @@ Passed Vit filter:                        13  (0.00308935); expected 4.2 (0.001)
 Passed Fwd filter:                         9  (0.00213878); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               0  [number of targets reported over threshold]
-# CPU time: 0.09u 0.00s 00:00:00.09 Elapsed: 00:00:00.10
-# Mc/sec: 5311.52
+# CPU time: 0.09u 0.00s 00:00:00.09 Elapsed: 00:00:00.09
+# Mc/sec: 5770.50
 //
 Query:       TIGR00487  [M=587]
 Accession:   TIGR00487
@@ -1826,8 +1826,8 @@ Passed Vit filter:                        22  (0.00522814); expected 4.2 (0.001)
 Passed Fwd filter:                        11  (0.00261407); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.11u 0.00s 00:00:00.11 Elapsed: 00:00:00.11
-# Mc/sec: 6250.40
+# CPU time: 0.12u 0.00s 00:00:00.12 Elapsed: 00:00:00.11
+# Mc/sec: 6311.82
 //
 Query:       TIGR00491  [M=594]
 Accession:   TIGR00491
@@ -1855,8 +1855,8 @@ Passed Vit filter:                        15  (0.00356464); expected 4.2 (0.001)
 Passed Fwd filter:                         9  (0.00213878); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               0  [number of targets reported over threshold]
-# CPU time: 0.10u 0.00s 00:00:00.10 Elapsed: 00:00:00.12
-# Mc/sec: 6094.80
+# CPU time: 0.09u 0.00s 00:00:00.09 Elapsed: 00:00:00.09
+# Mc/sec: 8288.96
 //
 Query:       TIGR00496  [M=176]
 Accession:   TIGR00496
@@ -1886,8 +1886,8 @@ Passed Vit filter:                         4  (0.00095057); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
-# Mc/sec: 9299.60
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.01
+# Mc/sec: 12647.55
 //
 Query:       TIGR00522  [M=258]
 Accession:   TIGR00522
@@ -1915,8 +1915,8 @@ Passed Vit filter:                         5  (0.00118821); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               0  [number of targets reported over threshold]
-# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.03
-# Mc/sec: 8874.42
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.04
+# Mc/sec: 7390.84
 //
 Query:       TIGR00539  [M=361]
 Accession:   TIGR00539
@@ -1946,8 +1946,8 @@ Passed Vit filter:                        16  (0.00380228); expected 4.2 (0.001)
 Passed Fwd filter:                         4  (0.00095057); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.05
-# Mc/sec: 8076.62
+# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.04
+# Mc/sec: 10132.80
 //
 Query:       TIGR00580  [M=923]
 Accession:   TIGR00580
@@ -1977,8 +1977,8 @@ Passed Vit filter:                        19  (0.00451521); expected 4.2 (0.001)
 Passed Fwd filter:                         7  (0.0016635); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.13u 0.01s 00:00:00.14 Elapsed: 00:00:00.13
-# Mc/sec: 8560.23
+# CPU time: 0.14u 0.01s 00:00:00.15 Elapsed: 00:00:00.14
+# Mc/sec: 8105.67
 //
 Query:       TIGR00593  [M=890]
 Accession:   TIGR00593
@@ -2008,8 +2008,8 @@ Passed Vit filter:                        10  (0.00237643); expected 4.2 (0.001)
 Passed Fwd filter:                         2  (0.000475285); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.08u 0.01s 00:00:00.09 Elapsed: 00:00:00.09
-# Mc/sec: 11730.45
+# CPU time: 0.09u 0.01s 00:00:00.10 Elapsed: 00:00:00.13
+# Mc/sec: 8562.06
 //
 Query:       TIGR00615  [M=196]
 Accession:   TIGR00615
@@ -2039,8 +2039,8 @@ Passed Vit filter:                         8  (0.00190114); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.04
-# Mc/sec: 6121.84
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.03
+# Mc/sec: 7394.74
 //
 Query:       TIGR00631  [M=658]
 Accession:   TIGR00631
@@ -2070,8 +2070,8 @@ Passed Vit filter:                        25  (0.00594106); expected 4.2 (0.001)
 Passed Fwd filter:                        10  (0.00237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.10u 0.00s 00:00:00.10 Elapsed: 00:00:00.13
-# Mc/sec: 6199.72
+# CPU time: 0.10u 0.01s 00:00:00.11 Elapsed: 00:00:00.11
+# Mc/sec: 7493.76
 //
 Query:       TIGR00634  [M=563]
 Accession:   TIGR00634
@@ -2101,8 +2101,8 @@ Passed Vit filter:                        53  (0.0125951); expected 4.2 (0.001)
 Passed Fwd filter:                        11  (0.00261407); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.09u 0.00s 00:00:00.09 Elapsed: 00:00:00.08
-# Mc/sec: 8558.54
+# CPU time: 0.11u 0.00s 00:00:00.11 Elapsed: 00:00:00.10
+# Mc/sec: 6523.30
 //
 Query:       TIGR00635  [M=305]
 Accession:   TIGR00635
@@ -2132,8 +2132,8 @@ Passed Vit filter:                       102  (0.0242395); expected 4.2 (0.001)
 Passed Fwd filter:                        23  (0.00546578); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.08u 0.01s 00:00:00.09 Elapsed: 00:00:00.08
-# Mc/sec: 4727.68
+# CPU time: 0.09u 0.00s 00:00:00.09 Elapsed: 00:00:00.10
+# Mc/sec: 3631.93
 //
 Query:       TIGR00643  [M=629]
 Accession:   TIGR00643
@@ -2163,8 +2163,8 @@ Passed Vit filter:                        15  (0.00356464); expected 4.2 (0.001)
 Passed Fwd filter:                         9  (0.00213878); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.12u 0.00s 00:00:00.12 Elapsed: 00:00:00.11
-# Mc/sec: 6943.49
+# CPU time: 0.13u 0.00s 00:00:00.13 Elapsed: 00:00:00.12
+# Mc/sec: 6242.77
 //
 Query:       TIGR00663  [M=367]
 Accession:   TIGR00663
@@ -2194,8 +2194,8 @@ Passed Vit filter:                         5  (0.00118821); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.02
-# Mc/sec: 16105.28
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.06
+# Mc/sec: 7231.82
 //
 Query:       TIGR00717  [M=516]
 Accession:   TIGR00717
@@ -2225,8 +2225,8 @@ Passed Vit filter:                        15  (0.00356464); expected 4.2 (0.001)
 Passed Fwd filter:                         4  (0.00095057); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.07u 0.00s 00:00:00.07 Elapsed: 00:00:00.06
-# Mc/sec: 10193.91
+# CPU time: 0.06u 0.01s 00:00:00.06 Elapsed: 00:00:00.06
+# Mc/sec: 10772.02
 //
 Query:       TIGR00755  [M=256]
 Accession:   TIGR00755
@@ -2256,8 +2256,8 @@ Passed Vit filter:                        19  (0.00451521); expected 4.2 (0.001)
 Passed Fwd filter:                         7  (0.0016635); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.04
-# Mc/sec: 7308.31
+# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.03
+# Mc/sec: 8256.13
 //
 Query:       TIGR00810  [M=73]
 Accession:   TIGR00810
@@ -2287,8 +2287,8 @@ Passed Vit filter:                        11  (0.00261407); expected 4.2 (0.001)
 Passed Fwd filter:                         3  (0.000712928); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
-# Mc/sec: 3329.96
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.01
+# Mc/sec: 4672.19
 //
 Query:       TIGR00922  [M=172]
 Accession:   TIGR00922
@@ -2318,8 +2318,8 @@ Passed Vit filter:                         5  (0.00118821); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
-# Mc/sec: 10430.31
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.02
+# Mc/sec: 7629.84
 //
 Query:       TIGR00928  [M=436]
 Accession:   TIGR00928
@@ -2349,8 +2349,8 @@ Passed Vit filter:                         9  (0.00213878); expected 4.2 (0.001)
 Passed Fwd filter:                         6  (0.00142586); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.05u 0.00s 00:00:00.05 Elapsed: 00:00:00.04
-# Mc/sec: 11496.25
+# CPU time: 0.06u 0.00s 00:00:00.06 Elapsed: 00:00:00.06
+# Mc/sec: 8803.46
 //
 Query:       TIGR00959  [M=428]
 Accession:   TIGR00959
@@ -2381,7 +2381,7 @@ Passed Fwd filter:                         6  (0.00142586); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
 # CPU time: 0.06u 0.00s 00:00:00.06 Elapsed: 00:00:00.06
-# Mc/sec: 8703.09
+# Mc/sec: 8181.42
 //
 Query:       TIGR00963  [M=787]
 Accession:   TIGR00963
@@ -2411,8 +2411,8 @@ Passed Vit filter:                         7  (0.0016635); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.08u 0.01s 00:00:00.09 Elapsed: 00:00:00.08
-# Mc/sec: 11604.44
+# CPU time: 0.08u 0.00s 00:00:00.08 Elapsed: 00:00:00.08
+# Mc/sec: 12320.92
 //
 Query:       TIGR00964  [M=57]
 Accession:   TIGR00964
@@ -2442,8 +2442,8 @@ Passed Vit filter:                        13  (0.00308935); expected 4.2 (0.001)
 Passed Fwd filter:                         2  (0.000475285); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
-# Mc/sec: 2686.64
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.01
+# Mc/sec: 3983.42
 //
 Query:       TIGR00967  [M=414]
 Accession:   TIGR00967
@@ -2473,8 +2473,8 @@ Passed Vit filter:                         6  (0.00142586); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.04
-# Mc/sec: 12231.80
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.03
+# Mc/sec: 16858.11
 //
 Query:       TIGR00982  [M=139]
 Accession:   TIGR00982
@@ -2502,8 +2502,8 @@ Passed Vit filter:                         8  (0.00190114); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               0  [number of targets reported over threshold]
-# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
-# Mc/sec: 6513.69
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.05
+# Mc/sec: 3509.31
 //
 Query:       TIGR01008  [M=195]
 Accession:   TIGR01008
@@ -2531,8 +2531,8 @@ Passed Vit filter:                        12  (0.00285171); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               0  [number of targets reported over threshold]
-# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.04
-# Mc/sec: 5844.30
+# CPU time: 0.01u 0.01s 00:00:00.02 Elapsed: 00:00:00.02
+# Mc/sec: 9800.19
 //
 Query:       TIGR01009  [M=212]
 Accession:   TIGR01009
@@ -2563,7 +2563,7 @@ Passed Fwd filter:                         2  (0.000475285); expected 0.0 (1e-05
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
 # CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.03
-# Mc/sec: 7060.21
+# Mc/sec: 8065.22
 //
 Query:       TIGR01011  [M=225]
 Accession:   TIGR01011
@@ -2593,8 +2593,8 @@ Passed Vit filter:                        11  (0.00261407); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.05
-# Mc/sec: 4896.23
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.03
+# Mc/sec: 9226.43
 //
 Query:       TIGR01012  [M=196]
 Accession:   TIGR01012
@@ -2622,8 +2622,8 @@ Passed Vit filter:                         7  (0.0016635); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               0  [number of targets reported over threshold]
-# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
-# Mc/sec: 12430.77
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.03
+# Mc/sec: 7121.16
 //
 Query:       TIGR01017  [M=200]
 Accession:   TIGR01017
@@ -2653,8 +2653,8 @@ Passed Vit filter:                         9  (0.00213878); expected 4.2 (0.001)
 Passed Fwd filter:                         4  (0.00095057); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.03
-# Mc/sec: 7965.97
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.02
+# Mc/sec: 9367.50
 //
 Query:       TIGR01018  [M=162]
 Accession:   TIGR01018
@@ -2682,8 +2682,8 @@ Passed Vit filter:                        10  (0.00237643); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               0  [number of targets reported over threshold]
-# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
-# Mc/sec: 7219.00
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.03
+# Mc/sec: 6376.22
 //
 Query:       TIGR01020  [M=212]
 Accession:   TIGR01020
@@ -2712,7 +2712,7 @@ Passed Fwd filter:                         2  (0.000475285); expected 0.0 (1e-05
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               0  [number of targets reported over threshold]
 # CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.03
-# Mc/sec: 7207.28
+# Mc/sec: 7400.28
 //
 Query:       TIGR01021  [M=156]
 Accession:   TIGR01021
@@ -2742,8 +2742,8 @@ Passed Vit filter:                         8  (0.00190114); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.04
-# Mc/sec: 4751.71
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
+# Mc/sec: 7402.66
 //
 Query:       TIGR01028  [M=186]
 Accession:   TIGR01028
@@ -2771,8 +2771,8 @@ Passed Vit filter:                         5  (0.00118821); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               0  [number of targets reported over threshold]
-# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.03
-# Mc/sec: 7656.98
+# CPU time: 0.02u 0.01s 00:00:00.03 Elapsed: 00:00:00.04
+# Mc/sec: 5297.79
 //
 Query:       TIGR01029  [M=154]
 Accession:   TIGR01029
@@ -2802,8 +2802,8 @@ Passed Vit filter:                         7  (0.0016635); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.03
-# Mc/sec: 5662.10
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
+# Mc/sec: 7177.62
 //
 Query:       TIGR01032  [M=114]
 Accession:   TIGR01032
@@ -2833,8 +2833,8 @@ Passed Vit filter:                         7  (0.0016635); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
-# Mc/sec: 6260.55
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.01
+# Mc/sec: 10871.21
 //
 Query:       TIGR01039  [M=462]
 Accession:   TIGR01039
@@ -2864,8 +2864,8 @@ Passed Vit filter:                        15  (0.00356464); expected 4.2 (0.001)
 Passed Fwd filter:                         5  (0.00118821); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.06u 0.00s 00:00:00.06 Elapsed: 00:00:00.05
-# Mc/sec: 9903.13
+# CPU time: 0.06u 0.01s 00:00:00.06 Elapsed: 00:00:00.06
+# Mc/sec: 9182.87
 //
 Query:       TIGR01044  [M=103]
 Accession:   TIGR01044
@@ -2895,8 +2895,8 @@ Passed Vit filter:                         5  (0.00118821); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.01
-# Mc/sec: 7101.43
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.03
+# Mc/sec: 4331.63
 //
 Query:       TIGR01046  [M=99]
 Accession:   TIGR01046
@@ -2924,8 +2924,8 @@ Passed Vit filter:                         4  (0.00095057); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               0  [number of targets reported over threshold]
-# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.01
-# Mc/sec: 7920.16
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.02
+# Mc/sec: 5583.39
 //
 Query:       TIGR01052  [M=488]
 Accession:   TIGR01052
@@ -2953,8 +2953,8 @@ Passed Vit filter:                        21  (0.00499049); expected 4.2 (0.001)
 Passed Fwd filter:                         5  (0.00118821); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               0  [number of targets reported over threshold]
-# CPU time: 0.05u 0.00s 00:00:00.05 Elapsed: 00:00:00.05
-# Mc/sec: 10776.46
+# CPU time: 0.06u 0.00s 00:00:00.06 Elapsed: 00:00:00.05
+# Mc/sec: 10691.50
 //
 Query:       TIGR01059  [M=639]
 Accession:   TIGR01059
@@ -2984,8 +2984,8 @@ Passed Vit filter:                         9  (0.00213878); expected 4.2 (0.001)
 Passed Fwd filter:                         2  (0.000475285); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.06u 0.00s 00:00:00.06 Elapsed: 00:00:00.06
-# Mc/sec: 13192.27
+# CPU time: 0.06u 0.01s 00:00:00.06 Elapsed: 00:00:00.07
+# Mc/sec: 11455.24
 //
 Query:       TIGR01063  [M=800]
 Accession:   TIGR01063
@@ -3015,8 +3015,8 @@ Passed Vit filter:                         8  (0.00190114); expected 4.2 (0.001)
 Passed Fwd filter:                         2  (0.000475285); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.09u 0.00s 00:00:00.09 Elapsed: 00:00:00.09
-# Mc/sec: 10695.02
+# CPU time: 0.09u 0.00s 00:00:00.09 Elapsed: 00:00:00.10
+# Mc/sec: 9924.26
 //
 Query:       TIGR01066  [M=141]
 Accession:   TIGR01066
@@ -3046,8 +3046,8 @@ Passed Vit filter:                         7  (0.0016635); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.01
-# Mc/sec: 10963.36
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.01
+# Mc/sec: 11488.51
 //
 Query:       TIGR01071  [M=144]
 Accession:   TIGR01071
@@ -3077,8 +3077,8 @@ Passed Vit filter:                         4  (0.00095057); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
-# Mc/sec: 6376.13
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.02
+# Mc/sec: 6448.68
 //
 Query:       TIGR01079  [M=104]
 Accession:   TIGR01079
@@ -3108,8 +3108,8 @@ Passed Vit filter:                         1  (0.000237643); expected 4.2 (0.001
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.02
-# Mc/sec: 5762.25
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.03
+# Mc/sec: 4062.14
 //
 Query:       TIGR01082  [M=449]
 Accession:   TIGR01082
@@ -3139,8 +3139,8 @@ Passed Vit filter:                        18  (0.00427757); expected 4.2 (0.001)
 Passed Fwd filter:                         5  (0.00118821); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.08u 0.00s 00:00:00.08 Elapsed: 00:00:00.07
-# Mc/sec: 7381.39
+# CPU time: 0.08u 0.01s 00:00:00.09 Elapsed: 00:00:00.09
+# Mc/sec: 5719.45
 //
 Query:       TIGR01087  [M=441]
 Accession:   TIGR01087
@@ -3170,8 +3170,8 @@ Passed Vit filter:                        40  (0.0095057); expected 4.2 (0.001)
 Passed Fwd filter:                         6  (0.00142586); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.08u 0.01s 00:00:00.09 Elapsed: 00:00:00.07
-# Mc/sec: 7288.32
+# CPU time: 0.08u 0.01s 00:00:00.09 Elapsed: 00:00:00.11
+# Mc/sec: 4983.53
 //
 Query:       TIGR01128  [M=314]
 Accession:   TIGR01128
@@ -3201,8 +3201,8 @@ Passed Vit filter:                        15  (0.00356464); expected 4.2 (0.001)
 Passed Fwd filter:                         2  (0.000475285); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.03
-# Mc/sec: 12352.82
+# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.03
+# Mc/sec: 10124.36
 //
 Query:       TIGR01146  [M=286]
 Accession:   TIGR01146
@@ -3232,8 +3232,8 @@ Passed Vit filter:                         5  (0.00118821); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.03
-# Mc/sec: 9904.16
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.03
+# Mc/sec: 9389.66
 //
 Query:       TIGR01164  [M=126]
 Accession:   TIGR01164
@@ -3263,8 +3263,8 @@ Passed Vit filter:                         6  (0.00142586); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
-# Mc/sec: 6313.11
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.04
+# Mc/sec: 3628.59
 //
 Query:       TIGR01169  [M=227]
 Accession:   TIGR01169
@@ -3294,8 +3294,8 @@ Passed Vit filter:                         6  (0.00142586); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.02
-# Mc/sec: 10780.42
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.03
+# Mc/sec: 8518.66
 //
 Query:       TIGR01171  [M=275]
 Accession:   TIGR01171
@@ -3325,8 +3325,8 @@ Passed Vit filter:                         5  (0.00118821); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.03
-# Mc/sec: 11181.75
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
+# Mc/sec: 14428.16
 //
 Query:       TIGR01213  [M=387]
 Accession:   TIGR01213
@@ -3354,8 +3354,8 @@ Passed Vit filter:                         8  (0.00190114); expected 4.2 (0.001)
 Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               0  [number of targets reported over threshold]
-# CPU time: 0.03u 0.01s 00:00:00.04 Elapsed: 00:00:00.04
-# Mc/sec: 11601.80
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.04
+# Mc/sec: 11709.67
 //
 Query:       TIGR01302  [M=450]
 Accession:   TIGR01302
@@ -3385,8 +3385,8 @@ Passed Vit filter:                        24  (0.00570342); expected 4.2 (0.001)
 Passed Fwd filter:                        11  (0.00261407); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.07u 0.00s 00:00:00.07 Elapsed: 00:00:00.08
-# Mc/sec: 6714.78
+# CPU time: 0.07u 0.00s 00:00:00.07 Elapsed: 00:00:00.07
+# Mc/sec: 7197.96
 //
 Query:       TIGR01391  [M=414]
 Accession:   TIGR01391
@@ -3417,7 +3417,7 @@ Passed Fwd filter:                         2  (0.000475285); expected 0.0 (1e-05
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
 # CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.03
-# Mc/sec: 13471.59
+# Mc/sec: 13553.33
 //
 Query:       TIGR01393  [M=595]
 Accession:   TIGR01393
@@ -3447,8 +3447,8 @@ Passed Vit filter:                        17  (0.00403992); expected 4.2 (0.001)
 Passed Fwd filter:                        10  (0.00237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.11u 0.00s 00:00:00.11 Elapsed: 00:00:00.11
-# Mc/sec: 6641.25
+# CPU time: 0.12u 0.00s 00:00:00.12 Elapsed: 00:00:00.12
+# Mc/sec: 6211.86
 //
 Query:       TIGR01394  [M=594]
 Accession:   TIGR01394
@@ -3478,8 +3478,8 @@ Passed Vit filter:                        18  (0.00427757); expected 4.2 (0.001)
 Passed Fwd filter:                         8  (0.00190114); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.11u 0.00s 00:00:00.11 Elapsed: 00:00:00.11
-# Mc/sec: 6528.28
+# CPU time: 0.10u 0.00s 00:00:00.10 Elapsed: 00:00:00.10
+# Mc/sec: 6922.78
 //
 Query:       TIGR01510  [M=155]
 Accession:   TIGR01510
@@ -3510,7 +3510,7 @@ Passed Fwd filter:                         2  (0.000475285); expected 0.0 (1e-05
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
 # CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
-# Mc/sec: 9227.55
+# Mc/sec: 8492.29
 //
 Query:       TIGR01632  [M=140]
 Accession:   TIGR01632
@@ -3540,8 +3540,8 @@ Passed Vit filter:                         5  (0.00118821); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.01u 0.01s 00:00:00.02 Elapsed: 00:00:00.01
-# Mc/sec: 12052.14
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
+# Mc/sec: 8699.84
 //
 Query:       TIGR01951  [M=131]
 Accession:   TIGR01951
@@ -3571,8 +3571,8 @@ Passed Vit filter:                         4  (0.00095057); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
-# Mc/sec: 7580.67
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.03
+# Mc/sec: 4772.25
 //
 Query:       TIGR01952  [M=141]
 Accession:   TIGR01952
@@ -3600,8 +3600,8 @@ Passed Vit filter:                         9  (0.00213878); expected 4.2 (0.001)
 Passed Fwd filter:                         2  (0.000475285); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               0  [number of targets reported over threshold]
-# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.01
-# Mc/sec: 9189.68
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.02
+# Mc/sec: 6228.65
 //
 Query:       TIGR01953  [M=340]
 Accession:   TIGR01953
@@ -3631,8 +3631,8 @@ Passed Vit filter:                         6  (0.00142586); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.05
-# Mc/sec: 7600.02
+# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.06
+# Mc/sec: 6664.80
 //
 Query:       TIGR02012  [M=321]
 Accession:   TIGR02012
@@ -3662,8 +3662,8 @@ Passed Vit filter:                        32  (0.00760456); expected 4.2 (0.001)
 Passed Fwd filter:                         2  (0.000475285); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.06
-# Mc/sec: 5848.25
+# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.04
+# Mc/sec: 10103.27
 //
 Query:       TIGR02013  [M=1238]
 Accession:   TIGR02013
@@ -3693,8 +3693,8 @@ Passed Vit filter:                         7  (0.0016635); expected 4.2 (0.001)
 Passed Fwd filter:                         2  (0.000475285); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.14u 0.02s 00:00:00.16 Elapsed: 00:00:00.17
-# Mc/sec: 8831.46
+# CPU time: 0.12u 0.03s 00:00:00.15 Elapsed: 00:00:00.15
+# Mc/sec: 10151.58
 //
 Query:       TIGR02027  [M=298]
 Accession:   TIGR02027
@@ -3724,8 +3724,8 @@ Passed Vit filter:                         9  (0.00213878); expected 4.2 (0.001)
 Passed Fwd filter:                         2  (0.000475285); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.04
-# Mc/sec: 7925.97
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.05
+# Mc/sec: 6678.19
 //
 Query:       TIGR02075  [M=233]
 Accession:   TIGR02075
@@ -3755,8 +3755,8 @@ Passed Vit filter:                         7  (0.0016635); expected 4.2 (0.001)
 Passed Fwd filter:                         3  (0.000712928); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.03
-# Mc/sec: 7957.86
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.02
+# Mc/sec: 11205.04
 //
 Query:       TIGR02191  [M=219]
 Accession:   TIGR02191
@@ -3786,8 +3786,8 @@ Passed Vit filter:                         4  (0.00095057); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
-# Mc/sec: 12042.84
+# CPU time: 0.02u 0.01s 00:00:00.03 Elapsed: 00:00:00.01
+# Mc/sec: 18988.84
 //
 Query:       TIGR02236  [M=311]
 Accession:   TIGR02236
@@ -3815,8 +3815,8 @@ Passed Vit filter:                        14  (0.003327); expected 4.2 (0.001)
 Passed Fwd filter:                         4  (0.00095057); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               0  [number of targets reported over threshold]
-# CPU time: 0.05u 0.00s 00:00:00.05 Elapsed: 00:00:00.05
-# Mc/sec: 6987.17
+# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.03
+# Mc/sec: 9966.85
 //
 Query:       TIGR02273  [M=166]
 Accession:   TIGR02273
@@ -3846,8 +3846,8 @@ Passed Vit filter:                         7  (0.0016635); expected 4.2 (0.001)
 Passed Fwd filter:                         2  (0.000475285); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
-# Mc/sec: 8856.90
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.01
+# Mc/sec: 13280.89
 //
 Query:       TIGR02338  [M=110]
 Accession:   TIGR02338
@@ -3875,8 +3875,8 @@ Passed Vit filter:                         6  (0.00142586); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               0  [number of targets reported over threshold]
-# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
-# Mc/sec: 5707.44
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.01
+# Mc/sec: 8603.93
 //
 Query:       TIGR02350  [M=596]
 Accession:   TIGR02350
@@ -3906,8 +3906,8 @@ Passed Vit filter:                        18  (0.00427757); expected 4.2 (0.001)
 Passed Fwd filter:                         2  (0.000475285); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.07u 0.00s 00:00:00.07 Elapsed: 00:00:00.08
-# Mc/sec: 9174.11
+# CPU time: 0.07u 0.00s 00:00:00.07 Elapsed: 00:00:00.07
+# Mc/sec: 9599.65
 //
 Query:       TIGR02386  [M=1147]
 Accession:   TIGR02386
@@ -3938,7 +3938,7 @@ Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
 # CPU time: 0.12u 0.01s 00:00:00.13 Elapsed: 00:00:00.13
-# Mc/sec: 10940.45
+# Mc/sec: 10659.75
 //
 Query:       TIGR02389  [M=367]
 Accession:   TIGR02389
@@ -3966,8 +3966,8 @@ Passed Vit filter:                         3  (0.000712928); expected 4.2 (0.001
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               0  [number of targets reported over threshold]
-# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.04
-# Mc/sec: 9874.91
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.04
+# Mc/sec: 9861.69
 //
 Query:       TIGR02390  [M=867]
 Accession:   TIGR02390
@@ -3995,8 +3995,8 @@ Passed Vit filter:                         8  (0.00190114); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               0  [number of targets reported over threshold]
-# CPU time: 0.09u 0.00s 00:00:00.09 Elapsed: 00:00:00.08
-# Mc/sec: 12867.65
+# CPU time: 0.10u 0.00s 00:00:00.10 Elapsed: 00:00:00.09
+# Mc/sec: 11260.02
 //
 Query:       TIGR02397  [M=355]
 Accession:   TIGR02397
@@ -4026,8 +4026,8 @@ Passed Vit filter:                       107  (0.0254278); expected 4.2 (0.001)
 Passed Fwd filter:                         9  (0.00213878); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.09u 0.00s 00:00:00.09 Elapsed: 00:00:00.08
-# Mc/sec: 5262.02
+# CPU time: 0.09u 0.00s 00:00:00.09 Elapsed: 00:00:00.10
+# Mc/sec: 4431.05
 //
 Query:       TIGR02432  [M=189]
 Accession:   TIGR02432
@@ -4058,7 +4058,7 @@ Passed Fwd filter:                         7  (0.0016635); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
 # CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.03
-# Mc/sec: 6586.15
+# Mc/sec: 7671.56
 //
 Query:       TIGR02729  [M=329]
 Accession:   TIGR02729
@@ -4088,8 +4088,8 @@ Passed Vit filter:                        64  (0.0152091); expected 4.2 (0.001)
 Passed Fwd filter:                         8  (0.00190114); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.08u 0.00s 00:00:00.08 Elapsed: 00:00:00.07
-# Mc/sec: 5243.07
+# CPU time: 0.09u 0.00s 00:00:00.09 Elapsed: 00:00:00.09
+# Mc/sec: 4453.35
 //
 Query:       TIGR03263  [M=180]
 Accession:   TIGR03263
@@ -4119,8 +4119,8 @@ Passed Vit filter:                       153  (0.0363593); expected 4.2 (0.001)
 Passed Fwd filter:                        36  (0.00855513); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.07u 0.00s 00:00:00.07 Elapsed: 00:00:00.06
-# Mc/sec: 3276.94
+# CPU time: 0.06u 0.00s 00:00:00.06 Elapsed: 00:00:00.06
+# Mc/sec: 3609.44
 //
 Query:       TIGR03594  [M=432]
 Accession:   TIGR03594
@@ -4150,8 +4150,8 @@ Passed Vit filter:                        85  (0.0201996); expected 4.2 (0.001)
 Passed Fwd filter:                        22  (0.00522814); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.12u 0.00s 00:00:00.12 Elapsed: 00:00:00.11
-# Mc/sec: 4604.09
+# CPU time: 0.12u 0.00s 00:00:00.12 Elapsed: 00:00:00.12
+# Mc/sec: 4462.79
 //
 Query:       TIGR03625  [M=202]
 Accession:   TIGR03625
@@ -4182,7 +4182,7 @@ Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
 # CPU time: 0.02u 0.01s 00:00:00.03 Elapsed: 00:00:00.02
-# Mc/sec: 12487.37
+# Mc/sec: 8895.67
 //
 Query:       TIGR03626  [M=331]
 Accession:   TIGR03626
@@ -4210,8 +4210,8 @@ Passed Vit filter:                         5  (0.00118821); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               0  [number of targets reported over threshold]
-# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.03
-# Mc/sec: 11154.82
+# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.02
+# Mc/sec: 14678.75
 //
 Query:       TIGR03627  [M=130]
 Accession:   TIGR03627
@@ -4239,8 +4239,8 @@ Passed Vit filter:                        16  (0.00380228); expected 4.2 (0.001)
 Passed Fwd filter:                         2  (0.000475285); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               0  [number of targets reported over threshold]
-# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
-# Mc/sec: 5547.98
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.03
+# Mc/sec: 5379.13
 //
 Query:       TIGR03628  [M=117]
 Accession:   TIGR03628
@@ -4268,8 +4268,8 @@ Passed Vit filter:                         8  (0.00190114); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               0  [number of targets reported over threshold]
-# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.05
-# Mc/sec: 2954.24
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.04
+# Mc/sec: 3659.99
 //
 Query:       TIGR03629  [M=144]
 Accession:   TIGR03629
@@ -4297,8 +4297,8 @@ Passed Vit filter:                         7  (0.0016635); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               0  [number of targets reported over threshold]
-# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
-# Mc/sec: 6965.74
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.03
+# Mc/sec: 5337.04
 //
 Query:       TIGR03632  [M=117]
 Accession:   TIGR03632
@@ -4328,8 +4328,8 @@ Passed Vit filter:                        13  (0.00308935); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.03
-# Mc/sec: 4398.00
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.02
+# Mc/sec: 5844.39
 //
 Query:       TIGR03654  [M=175]
 Accession:   TIGR03654
@@ -4359,8 +4359,8 @@ Passed Vit filter:                         2  (0.000475285); expected 4.2 (0.001
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.03
-# Mc/sec: 7387.64
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.02
+# Mc/sec: 8954.57
 //
 Query:       TIGR03670  [M=599]
 Accession:   TIGR03670
@@ -4388,8 +4388,8 @@ Passed Vit filter:                         5  (0.00118821); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               0  [number of targets reported over threshold]
-# CPU time: 0.05u 0.00s 00:00:00.05 Elapsed: 00:00:00.06
-# Mc/sec: 12641.29
+# CPU time: 0.05u 0.00s 00:00:00.05 Elapsed: 00:00:00.07
+# Mc/sec: 10576.28
 //
 Query:       TIGR03671  [M=410]
 Accession:   TIGR03671
@@ -4417,8 +4417,8 @@ Passed Vit filter:                         7  (0.0016635); expected 4.2 (0.001)
 Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               0  [number of targets reported over threshold]
-# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.05
-# Mc/sec: 10026.29
+# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.02
+# Mc/sec: 17398.97
 //
 Query:       TIGR03672  [M=251]
 Accession:   TIGR03672
@@ -4446,8 +4446,8 @@ Passed Vit filter:                         9  (0.00213878); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               0  [number of targets reported over threshold]
-# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.03
-# Mc/sec: 10211.24
+# CPU time: 0.03u 0.01s 00:00:00.04 Elapsed: 00:00:00.04
+# Mc/sec: 7467.26
 //
 Query:       TIGR03673  [M=131]
 Accession:   TIGR03673
@@ -4475,8 +4475,8 @@ Passed Vit filter:                         4  (0.00095057); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               0  [number of targets reported over threshold]
-# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
-# Mc/sec: 8177.77
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.01
+# Mc/sec: 12492.26
 //
 Query:       TIGR03674  [M=338]
 Accession:   TIGR03674
@@ -4504,8 +4504,8 @@ Passed Vit filter:                         7  (0.0016635); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               0  [number of targets reported over threshold]
-# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.05
-# Mc/sec: 7790.82
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.04
+# Mc/sec: 9429.99
 //
 Query:       TIGR03676  [M=403]
 Accession:   TIGR03676
@@ -4533,8 +4533,8 @@ Passed Vit filter:                         5  (0.00118821); expected 4.2 (0.001)
 Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               0  [number of targets reported over threshold]
-# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.04
-# Mc/sec: 11730.21
+# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.03
+# Mc/sec: 15634.70
 //
 Query:       TIGR03680  [M=407]
 Accession:   TIGR03680
@@ -4562,8 +4562,8 @@ Passed Vit filter:                        20  (0.00475285); expected 4.2 (0.001)
 Passed Fwd filter:                        10  (0.00237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               0  [number of targets reported over threshold]
-# CPU time: 0.10u 0.00s 00:00:00.10 Elapsed: 00:00:00.10
-# Mc/sec: 5072.64
+# CPU time: 0.09u 0.00s 00:00:00.09 Elapsed: 00:00:00.09
+# Mc/sec: 5256.80
 //
 Query:       TIGR03723  [M=314]
 Accession:   TIGR03723
@@ -4594,7 +4594,7 @@ Passed Fwd filter:                         2  (0.000475285); expected 0.0 (1e-05
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
 # CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.03
-# Mc/sec: 13209.12
+# Mc/sec: 10807.95
 //
 Query:       TIGR03725  [M=212]
 Accession:   TIGR03725
@@ -4624,8 +4624,8 @@ Passed Vit filter:                        14  (0.003327); expected 4.2 (0.001)
 Passed Fwd filter:                         2  (0.000475285); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.03
-# Mc/sec: 7374.79
+# CPU time: 0.03u 0.01s 00:00:00.04 Elapsed: 00:00:00.05
+# Mc/sec: 5220.05
 //
 Query:       TIGR03953  [M=188]
 Accession:   TIGR03953
@@ -4655,7 +4655,7 @@ Passed Vit filter:                         4  (0.00095057); expected 4.2 (0.001)
 Passed Fwd filter:                         1  (0.000237643); expected 0.0 (1e-05)
 Initial search space (Z):               4208  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.03
-# Mc/sec: 6713.21
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
+# Mc/sec: 8246.30
 //
 [ok]

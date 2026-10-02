@@ -1,0 +1,35 @@
+[2026-10-02 22:35:58] INFO: GTDB-Tk v2.7.2
+[2026-10-02 22:35:58] INFO: gtdbtk align --identify_dir results/05_phylogeny/identify_all/identify --out_dir results/05_phylogeny/align_all --cpus 16
+[2026-10-02 22:35:58] INFO: Using GTDB-Tk reference data version r232: /dgxb_home/se26plsc001/arvind/Devosia_BGC/data/databases/gtdbtk_r232/release232
+[2026-10-02 22:35:58] ERROR: Uncontrolled exit resulting from an unexpected error.
+
+================================================================================
+EXCEPTION: FileNotFoundError
+  MESSAGE: [Errno 2] No such file or directory: 'results/05_phylogeny/identify_all/identify/identify/intermediate_results/marker_genes'
+________________________________________________________________________________
+
+Traceback (most recent call last):
+  File "/dgxb_home/se26plsc001/miniconda3/envs/gtdbtk/lib/python3.13/site-packages/gtdbtk/__main__.py", line 100, in main
+    gt_parser.parse_options(args)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/dgxb_home/se26plsc001/miniconda3/envs/gtdbtk/lib/python3.13/site-packages/gtdbtk/main.py", line 1190, in parse_options
+    self.align(options)
+    ~~~~~~~~~~^^^^^^^^^
+  File "/dgxb_home/se26plsc001/miniconda3/envs/gtdbtk/lib/python3.13/site-packages/gtdbtk/main.py", line 385, in align
+    reports,all_failed_prodigal = markers.align(options.identify_dir,
+                                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+                  options.skip_gtdb_refs,
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+                  options.outgroup_taxon if hasattr(options, 'outgroup_taxon') else None,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                  self.genomes_to_process)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/dgxb_home/se26plsc001/miniconda3/envs/gtdbtk/lib/python3.13/site-packages/gtdbtk/markers.py", line 502, in align
+    genomic_files = self._path_to_identify_data(
+        identify_dir, identify_dir != out_dir)
+  File "/dgxb_home/se26plsc001/miniconda3/envs/gtdbtk/lib/python3.13/site-packages/gtdbtk/markers.py", line 271, in _path_to_identify_data
+    for gid in os.listdir(marker_gene_dir):
+               ~~~~~~~~~~^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'results/05_phylogeny/identify_all/identify/identify/intermediate_results/marker_genes'
+================================================================================

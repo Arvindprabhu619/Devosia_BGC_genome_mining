@@ -7,9 +7,9 @@
         {
             "name": "identify",
             "output_dir": "results/05_phylogeny/identify_all",
-            "starts_at": "2026-10-02T22:20:35.183673",
-            "ends_at": "2026-10-02T22:26:19.822205",
-            "duration": "0:05:44",
+            "starts_at": "2026-10-02T22:28:59.411196",
+            "ends_at": "2026-10-02T22:34:28.790347",
+            "duration": "0:05:29",
             "status": "completed",
             "genes": false,
             "extension": "fna",

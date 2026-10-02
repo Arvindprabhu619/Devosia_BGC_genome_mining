@@ -125,5 +125,5 @@ JQGB01000002.1_189   -          TIGR03953            TIGR03953    2.8e-64  213.9
 # Target file:     results/05_phylogeny/identify_all/identify/intermediate_results/marker_genes/query_GCA_000743515.1/query_GCA_000743515.1_protein.faa
 # Option settings: hmmsearch -o results/05_phylogeny/identify_all/identify/intermediate_results/marker_genes/query_GCA_000743515.1/query_GCA_000743515.1_tigrfam.out --tblout results/05_phylogeny/identify_all/identify/intermediate_results/marker_genes/query_GCA_000743515.1/query_GCA_000743515.1_tigrfam.tsv --noali --notextw --cut_nc --cpu 1 /dgxb_home/se26plsc001/arvind/Devosia_BGC/data/databases/gtdbtk_r232/release232/markers/tigrfam/tigrfam.hmm results/05_phylogeny/identify_all/identify/intermediate_results/marker_genes/query_GCA_000743515.1/query_GCA_000743515.1_protein.faa 
 # Current dir:     /dgxb_home/se26plsc001/arvind/Devosia_BGC
-# Date:            Fri Oct  2 22:25:33 2026
+# Date:            Fri Oct  2 22:33:42 2026
 # [ok]

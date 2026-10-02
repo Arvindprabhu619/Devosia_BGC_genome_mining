@@ -124,5 +124,5 @@ NZ_JAGIAW010000001.1_1172 -          TIGR03953            TIGR03953    1.1e-61  
 # Target file:     results/05_phylogeny/identify_all/identify/intermediate_results/marker_genes/query_GCF_017744655.1/query_GCF_017744655.1_protein.faa
 # Option settings: hmmsearch -o results/05_phylogeny/identify_all/identify/intermediate_results/marker_genes/query_GCF_017744655.1/query_GCF_017744655.1_tigrfam.out --tblout results/05_phylogeny/identify_all/identify/intermediate_results/marker_genes/query_GCF_017744655.1/query_GCF_017744655.1_tigrfam.tsv --noali --notextw --cut_nc --cpu 1 /dgxb_home/se26plsc001/arvind/Devosia_BGC/data/databases/gtdbtk_r232/release232/markers/tigrfam/tigrfam.hmm results/05_phylogeny/identify_all/identify/intermediate_results/marker_genes/query_GCF_017744655.1/query_GCF_017744655.1_protein.faa 
 # Current dir:     /dgxb_home/se26plsc001/arvind/Devosia_BGC
-# Date:            Fri Oct  2 22:25:09 2026
+# Date:            Fri Oct  2 22:33:17 2026
 # [ok]

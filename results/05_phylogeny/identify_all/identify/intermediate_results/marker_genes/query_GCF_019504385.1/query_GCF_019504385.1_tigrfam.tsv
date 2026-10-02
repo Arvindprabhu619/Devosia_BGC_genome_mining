@@ -125,5 +125,5 @@ NZ_CP080590.1_1886   -          TIGR03953            TIGR03953    1.8e-65  217.7
 # Target file:     results/05_phylogeny/identify_all/identify/intermediate_results/marker_genes/query_GCF_019504385.1/query_GCF_019504385.1_protein.faa
 # Option settings: hmmsearch -o results/05_phylogeny/identify_all/identify/intermediate_results/marker_genes/query_GCF_019504385.1/query_GCF_019504385.1_tigrfam.out --tblout results/05_phylogeny/identify_all/identify/intermediate_results/marker_genes/query_GCF_019504385.1/query_GCF_019504385.1_tigrfam.tsv --noali --notextw --cut_nc --cpu 1 /dgxb_home/se26plsc001/arvind/Devosia_BGC/data/databases/gtdbtk_r232/release232/markers/tigrfam/tigrfam.hmm results/05_phylogeny/identify_all/identify/intermediate_results/marker_genes/query_GCF_019504385.1/query_GCF_019504385.1_protein.faa 
 # Current dir:     /dgxb_home/se26plsc001/arvind/Devosia_BGC
-# Date:            Fri Oct  2 22:25:34 2026
+# Date:            Fri Oct  2 22:33:43 2026
 # [ok]

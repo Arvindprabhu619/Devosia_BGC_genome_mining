@@ -126,5 +126,5 @@ CDSMMG010000005.1_16 -          TIGR03953            TIGR03953    1.9e-64  214.2
 # Target file:     results/05_phylogeny/identify_all/identify/intermediate_results/marker_genes/query_GCA_977190485.1/query_GCA_977190485.1_protein.faa
 # Option settings: hmmsearch -o results/05_phylogeny/identify_all/identify/intermediate_results/marker_genes/query_GCA_977190485.1/query_GCA_977190485.1_tigrfam.out --tblout results/05_phylogeny/identify_all/identify/intermediate_results/marker_genes/query_GCA_977190485.1/query_GCA_977190485.1_tigrfam.tsv --noali --notextw --cut_nc --cpu 1 /dgxb_home/se26plsc001/arvind/Devosia_BGC/data/databases/gtdbtk_r232/release232/markers/tigrfam/tigrfam.hmm results/05_phylogeny/identify_all/identify/intermediate_results/marker_genes/query_GCA_977190485.1/query_GCA_977190485.1_protein.faa 
 # Current dir:     /dgxb_home/se26plsc001/arvind/Devosia_BGC
-# Date:            Fri Oct  2 22:25:55 2026
+# Date:            Fri Oct  2 22:34:04 2026
 # [ok]
