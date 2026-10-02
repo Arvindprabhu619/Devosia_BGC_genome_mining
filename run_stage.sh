@@ -15,6 +15,8 @@
 
 set -euo pipefail
 cd "$(dirname "$0")"
+source scripts/00_paths.sh
+export PATH="$(dirname $PYTHON_BIN):$(dirname $RSCRIPT):$PATH"
 
 STAGE="${1:-}"
 if [[ -z "$STAGE" ]]; then

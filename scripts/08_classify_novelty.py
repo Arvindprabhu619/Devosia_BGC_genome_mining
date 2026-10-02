@@ -4,18 +4,12 @@
 # ============================================================
 # Purpose: Classify each BGC by KnownClusterBlast similarity to MIBiG.
 #
-# Inputs:   results/06_antismash/raw_output/*/  (*.json files)
-#           results/06_antismash/parsed/bgc_regions.tsv
-# Outputs:
-#   results/06_antismash/parsed/bgc_novelty.tsv
-#   results/06_antismash/parsed/novelty_summary.txt
+# antiSMASH 7 KCB structure:
+#   record.modules['antismash.modules.clusterblast']['knowncluster']
+#     .results[] = [{region_number, total_hits, ranking}]
+#   region_number is PER-RECORD (restarts at 1 for each contig)
 #
-# Classification:
-#   Putatively novel: no detectable ranked MIBiG match
-#   Related:          match with similarity < 70%
-#   Known:            match with similarity >= 70% (study-specific cutoff)
-#
-# Runtime:  5 min
+# Matching: record[i].areas[j] <-> KCB results[k] where region_number == j+1
 # ============================================================
 import json
 from pathlib import Path
@@ -27,26 +21,48 @@ PARSED = ROOT / "results" / "06_antismash" / "parsed"
 SIM_THRESHOLD = 70.0
 
 
-def get_kcb(json_path):
+def extract_kcb(json_path):
     with open(json_path) as f:
         data = json.load(f)
     acc = data.get("input_file", "").replace(".fna", "").split("/")[-1]
     out = {}
+
+    global_region = 0
     for rec in data.get("records", []):
-        for region in rec.get("areas", []):
-            rnum = region.get("region_number", 0)
-            bgc_id = f"{acc}_region{rnum:03d}"
-            kcb = region.get("knownclusterblast", {}) or {}
-            hits = kcb.get("results", []) or []
+        areas = rec.get("areas", [])
+        if not areas:
+            continue
+
+        modules = rec.get("modules", {})
+        clusterblast = modules.get("antismash.modules.clusterblast", {})
+        knowncluster = clusterblast.get("knowncluster", {})
+        kcb_results = knowncluster.get("results", [])
+
+        kcb_by_local_region = {}
+        for r in kcb_results:
+            kcb_by_local_region[r.get("region_number", 0)] = r
+
+        for local_idx, area in enumerate(areas, start=1):
+            global_region += 1
+            bgc_id = f"{acc}_region{global_region:03d}"
+
+            kcb = kcb_by_local_region.get(local_idx, {})
+            total_hits = kcb.get("total_hits", 0)
+            ranking = kcb.get("ranking", [])
+
             max_sim = 0.0
             best_acc = ""
-            if hits:
-                max_sim = float(hits[0].get("similarity", 0))
-                best_acc = hits[0].get("accession", "")
+            if ranking and len(ranking[0]) >= 2:
+                top_hit = ranking[0]
+                meta = top_hit[0] if isinstance(top_hit[0], dict) else {}
+                scores = top_hit[1] if isinstance(top_hit[1], dict) else {}
+                max_sim = float(scores.get("similarity", 0))
+                best_acc = meta.get("accession", "")
+
             out[bgc_id] = {
                 "max_similarity": max_sim,
                 "mibig_accession": best_acc,
-                "n_hits": len(hits),
+                "n_hits": total_hits,
             }
     return out
 
@@ -66,7 +82,7 @@ def main():
     kcb_all = {}
     for jf in RAW.glob("*/*.json"):
         try:
-            kcb_all.update(get_kcb(jf))
+            kcb_all.update(extract_kcb(jf))
         except Exception as e:
             print(f"  ERROR {jf.name}: {e}")
     print(f"Found KnownClusterBlast data for {len(kcb_all)} regions")

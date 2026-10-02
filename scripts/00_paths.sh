@@ -58,7 +58,7 @@ export R="${WRAPPER_BIN}/run_r"
 
 # ---------- Python (working interpreter) ----------
 # The base Python is broken; use the checkm2 env's Python
-export PYTHON_BIN="${PYTHON_BIN:-$HOME/miniconda3/envs/checkm2/bin/python}"
+export PYTHON_BIN="/dgxb_home/se26plsc001/miniconda3/envs/checkm2/bin/python"
 
 # ---------- Databases ----------
 export GTDBTK_DATA="${DATA_DB}/gtdbtk_r232/release232"

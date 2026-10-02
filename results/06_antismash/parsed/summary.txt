@@ -1,0 +1,15 @@
+Physical BGC regions: 663
+Hybrid regions:       27
+Class assignments:    690
+
+Top 10 classes:
+  hserlactone                    185
+  terpene                        141
+  betalactone                    85
+  RiPP-like                      48
+  thioamitides                   40
+  ectoine                        37
+  acyl_amino_acids               31
+  RRE-containing                 27
+  hydrogen-cyanide               20
+  T3PKS                          19

@@ -1,0 +1,5 @@
+Novelty classification (threshold: >= 70.0% = known)
+
+  Putatively novel:  538  (81.15%)
+  Related:            81  (12.22%)
+  Known:              44  (6.64%)

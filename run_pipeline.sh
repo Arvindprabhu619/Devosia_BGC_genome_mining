@@ -29,6 +29,7 @@
 set -euo pipefail
 cd "$(dirname "$0")"
 source scripts/00_paths.sh
+export PATH="$(dirname $PYTHON_BIN):$(dirname $RSCRIPT):$PATH"
 
 # ---------- Parse arguments ----------
 FROM="${1:-01}"
@@ -63,7 +64,7 @@ run_stage() {
     local start_time
     start_time=$(date +%s)
 
-    if ! bash "${script}"; then
+    if ! "${script}"; then
         echo ""
         echo "❌ STAGE ${stage} FAILED at $(date)"
         echo "See log: ${LOG}"
