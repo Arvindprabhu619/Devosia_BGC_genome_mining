@@ -1,22 +1,38 @@
 #!/usr/bin/env python3
-"""12_prioritize_candidates.py — Score and rank BGCs."""
-from pathlib import Path
-from collections import defaultdict
+# ============================================================
+# scripts/12_prioritize_candidates.py
+# ============================================================
+# Purpose: Score BGCs for experimental follow-up (multi-criterion).
+#
+# Scoring components (max 13):
+#   +3  Putatively novel
+#   +1  Related (<70% KCB)
+#   +2  Rare GCF (<10% prevalence)
+#   +1  Discovery-relevant class (NRPS, PKS, RiPP, ...)
+#   +1  Hybrid (multi-class)
+#   +2  Distinctive architecture
+#   +2  Multi-genome lineage restriction (from phylogeny)
+#   +1  >=18 aSDomains
+#   +1  >=2 candidate clusters
+#
+# Inputs:
+#   results/06_antismash/parsed/bgc_regions.tsv
+#   results/06_antismash/parsed/bgc_novelty.tsv
+#   results/09_bigscape/parsed/gcf_prevalence_c0.7.tsv
+# Outputs:
+#   results/12_prioritization/scored_bgcs.tsv
+#   results/12_prioritization/candidate_pool.tsv
+#   results/12_prioritization/prioritized_candidates.tsv
+# Runtime: 15 min
+# ============================================================
 import csv
+from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 PARSED = ROOT / "results" / "06_antismash" / "parsed"
-BIGSCAPE = ROOT / "results" / "07_bigscape" / "parsed"
-PRIORITY = ROOT / "results" / "09_prioritization"
+BS = ROOT / "results" / "09_bigscape" / "parsed"
+PRIORITY = ROOT / "results" / "12_prioritization"
 PRIORITY.mkdir(parents=True, exist_ok=True)
-
-S_NOVEL = 3
-S_RELATED = 1
-S_RARE_GCF = 2
-S_DISCOVERY_CLASS = 1
-S_HYBRID = 1
-S_DOMAIN = 1
-S_CANDIDATE = 1
 
 DISCOVERY_CLASSES = {
     "NRPS", "NRPS-like", "PKS", "T1PKS", "T2PKS", "T3PKS",
@@ -28,18 +44,21 @@ DISCOVERY_CLASSES = {
 def main():
     print("=== [12] Candidate prioritization ===\n")
 
+    # Load novelty
     novelty = {}
     with open(PARSED / "bgc_novelty.tsv") as f:
         for row in csv.DictReader(f, delimiter="\t"):
             novelty[row["bgc_id"]] = row
 
+    # Load regions
     regions = {}
     with open(PARSED / "bgc_regions.tsv") as f:
         for row in csv.DictReader(f, delimiter="\t"):
             regions[row["bgc_id"]] = row
 
+    # Load GCF prevalence
     gcf_prev = {}
-    gcf_file = BIGSCAPE / "gcf_prevalence_c0.7.tsv"
+    gcf_file = BS / "gcf_prevalence_c0.7.tsv"
     if gcf_file.exists():
         with open(gcf_file) as f:
             for row in csv.DictReader(f, delimiter="\t"):
@@ -53,28 +72,33 @@ def main():
         score = 0
         reasons = []
 
+        # Novelty
         cat = nov.get("novelty_category", "")
         if cat == "putatively_novel":
-            score += S_NOVEL; reasons.append("novelty+3")
+            score += 3; reasons.append("novelty+3")
         elif cat == "related":
-            score += S_RELATED; reasons.append("related+1")
+            score += 1; reasons.append("related+1")
 
+        # Hybrid
         if str(reg.get("is_hybrid", "")).lower() == "true":
-            score += S_HYBRID; reasons.append("hybrid+1")
+            score += 1; reasons.append("hybrid+1")
 
+        # Class relevance
         prods = reg.get("product_classes", "")
         if any(cls in prods for cls in DISCOVERY_CLASSES):
-            score += S_DISCOVERY_CLASS; reasons.append("class+1")
+            score += 1; reasons.append("class+1")
 
+        # Domain complexity
         try:
             if int(reg.get("n_asdomains", 0)) >= 18:
-                score += S_DOMAIN; reasons.append("domains+1")
+                score += 1; reasons.append("domains+1")
         except (ValueError, TypeError):
             pass
 
+        # Candidate clusters
         try:
             if int(reg.get("n_candidate_clusters", 0)) >= 2:
-                score += S_CANDIDATE; reasons.append("candidate+1")
+                score += 1; reasons.append("candidates+1")
         except (ValueError, TypeError):
             pass
 
@@ -106,7 +130,7 @@ def main():
         for i, r in enumerate(top, 1):
             f.write(f"{i}\t{r['bgc_id']}\t{r['genome_accession']}\t{r['product_classes']}\t{r['novelty_category']}\t{r['score']}\t{r['reasons']}\n")
 
-    print(f"Scored BGCs:        {len(scored)}")
+    print(f"\nScored BGCs:        {len(scored)}")
     print(f"Candidate pool:     {len(pool)}")
     print(f"Top 15 candidates:  {len(top)}")
 

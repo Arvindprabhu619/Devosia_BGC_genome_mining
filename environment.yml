@@ -1,0 +1,89 @@
+# ============================================================
+# Devosia BGC Genome Mining — Conda Environment
+# ============================================================
+# Purpose: Reproduce the exact analysis environment.
+#
+# Usage:
+#   micromamba create -f environment.yml
+#   micromamba activate devosia_bgc
+#
+# OR (for conda):
+#   conda env create -f environment.yml
+#   conda activate devosia_bgc
+# ============================================================
+
+name: devosia_bgc
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  # ---------- Core ----------
+  - python=3.11
+  - pip
+  - git
+
+  # ---------- Bioinformatics tools ----------
+  - antismash=7.1.0
+  - checkm2=1.1.0
+  - gtdbtk=2.7.2
+  - bigscape=2.0.3
+  - fasttree
+  - prodigal
+  - hmmer
+  - diamond
+  - ncbi-datasets-cli
+
+  # ---------- Python packages ----------
+  - pandas
+  - numpy
+  - scipy
+  - statsmodels
+  - biopython
+  - matplotlib
+  - seaborn
+
+  # ---------- R ----------
+  - r-base=4.4
+  - r-ape
+  - r-phytools
+  - r-phylolm
+  - r-ggtree
+  - r-ggplot2
+  - r-dplyr
+  - r-tidyr
+  - r-patchwork
+  - r-cowplot
+  - r-ggpubr
+  - r-scales
+  - r-rcolorbrewer
+  - r-viridis
+  - r-ggnewscale
+  - r-treeio
+  - r-ggridges
+
+  # ---------- Pip packages ----------
+  - pip:
+    - biopython>=1.81
+
+# ============================================================
+# Notes
+# ============================================================
+# - GTDB-Tk reference data (R232) must be downloaded separately:
+#   wget https://data.gtdb.ecogenomic.org/releases/release232/
+#        232.0/auxillary_files/gtdbtk_package/full_package/
+#        gtdbtk_r232_data.tar.gz
+#   (~57 GB download, ~94 GB extracted)
+#
+# - CheckM2 database must be downloaded separately:
+#   wget https://zenodo.org/records/5571251/files/checkm2_database.tar.gz
+#   (~3 GB)
+#
+# - Pfam-A.hmm (for BiG-SCAPE):
+#   wget http://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.hmm.gz
+#   hmmpress Pfam-A.hmm
+#   (~1.5 GB compressed)
+#
+# - MIBiG v3.1 (bundled with antiSMASH 7.1.0, no separate download needed)
+# ============================================================
