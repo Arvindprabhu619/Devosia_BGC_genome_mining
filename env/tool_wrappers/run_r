@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+exec "/dgxb_home/se26plsc001/miniconda3/envs/gtdbtk/bin/R" "$@"

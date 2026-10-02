@@ -1,0 +1,53 @@
+# ===== Large data =====
+data/raw_genomes/
+data/databases/
+results/03_checkm2/checkm2_output/
+results/03_checkm2/input_fastas/
+results/04_gtdbtk/gtdbtk_output/
+results/04_gtdbtk/input_genomes/
+results/05_phylogeny/alignments/
+results/06_antismash/raw_output/
+results/06_antismash/input/
+results/07_bigscape/raw_output/
+results/07_bigscape/input/
+
+# ===== Sequence / archive files =====
+*.fna
+*.faa
+*.gff
+*.gff3
+*.hmm
+*.h3f
+*.h3i
+*.h3m
+*.h3p
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.gz
+
+# ===== Python / R cache =====
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+.Rproj.user
+.ipynb_checkpoints/
+
+# ===== Logs (keep directory, ignore contents) =====
+logs/*
+!logs/.gitkeep
+
+# ===== But DO track these =====
+!data/metadata/*.txt
+!data/metadata/*.tsv
+!results/03_checkm2/quality_report.tsv
+!results/03_checkm2/quality_passed.txt
+!results/03_checkm2/quality_excluded.txt
+!results/06_antismash/parsed/
+!results/07_bigscape/parsed/
+!results/08_stats/
+!results/09_prioritization/
+!figures/
+!tables/

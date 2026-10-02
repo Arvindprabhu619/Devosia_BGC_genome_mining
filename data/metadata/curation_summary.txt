@@ -1,0 +1,8 @@
+=== Curation Summary ===
+Raw records:                 516
+After dedup:                 346
+Excluded (MAG):              35
+Excluded (uncultured/Cand):  39
+Excluded (fragmented):       97
+-------------------------------------
+FINAL curated assemblies:    175

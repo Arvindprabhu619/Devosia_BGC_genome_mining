@@ -1,0 +1,347 @@
+accession	organism	strain	level	n_scaffolds	decision	reason
+GCF_039938915.1	Devosia alba	RY10	Contig	209	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCF_042685625.1	Devosia albogilva	CCM 7427	Contig	6	KEEP	passed
+GCF_028816455.1	Devosia algicola	G20-9	Chromosome	1	KEEP	passed
+GCF_020169335.1	Devosia aquimaris	CJK-A8-3	Scaffold	3	KEEP	passed
+GCF_011058215.1	Devosia aurantiaca	H239	Contig	6	KEEP	passed
+GCF_014926585.1	Devosia beringensis	S02	Complete Genome	1	KEEP	passed
+GCF_000969445.1	Devosia chinhatensis	IPL18	Contig	98	KEEP	passed
+GCF_900116545.1	Devosia crocina	IPL20	Scaffold	6	KEEP	passed
+GCF_001650025.1	Devosia elaeis	S37	Contig	151	KEEP	passed
+GCF_900119845.1	Devosia enhydra	ATCC 23634	Scaffold	5	KEEP	passed
+GCF_000971295.1	Devosia epidermidihirudinis	E84	Contig	47	KEEP	passed
+GCF_900631955.1	Devosia equisanguinis	CIP 111628	Contig	79	KEEP	passed
+GCF_042679405.1	Devosia equisanguinis	CCM 8868	Contig	19	KEEP	passed
+GCF_015158295.1	Devosia faecipullorum	CC-YST696	Contig	22	KEEP	passed
+GCF_000969415.1	Devosia geojensis	BD-c194	Contig	207	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCF_007859655.1	Devosia ginsengisoli	Gsoil 520	Complete Genome	1	KEEP	passed
+GCF_024707105.1	Devosia ginsengisoli	46_gen_w_cov.5	Contig	15	KEEP	passed
+GCF_042648785.1	Devosia honganensis	KCTC 42281	Scaffold	20	KEEP	passed
+GCF_059726835.1	Devosia indica	Devi1KO	Complete Genome	1	KEEP	passed
+GCF_003056405.1	Devosia indica	IO390501	Scaffold	69	KEEP	passed
+GCF_054603015.1	Devosia indica	Devi2KO	Contig	241	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCF_000970465.2	Devosia insulae DS-56	DS-56	Contig	410	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCF_022429625.1	Devosia lacusdianchii	JXJ CY 41	Chromosome	1	KEEP	passed
+GCF_900128975.1	Devosia limi DSM 17137	DSM 17137	Scaffold	25	KEEP	passed
+GCF_000970435.1	Devosia limi DSM 17137	DSM 17137	Contig	158	KEEP	passed
+GCF_018334155.1	Devosia litorisediminis	BSSL-BM10	Contig	5	KEEP	passed
+GCF_977186645.1	Devosia litorisediminis	MarMAG_016616	Scaffold	147	KEEP	passed
+GCF_977243345.1	Devosia litorisediminis	MarMAG_016615	Scaffold	94	KEEP	passed
+GCF_977256975.1	Devosia litorisediminis	MarMAG_016617	Scaffold	16	KEEP	passed
+GCF_900177655.1	Devosia lucknowensis	L15	Contig	3	KEEP	passed
+GCF_059724365.1	Devosia marina	OovaMAG38	Complete Genome	1	KEEP	passed
+GCF_009758415.1	Devosia marina	L53-10-65	Contig	33	KEEP	passed
+GCF_040223715.1	Devosia marina	F1-TOW-06	Contig	34	KEEP	passed
+GCF_003056355.1	Devosia naphthalenivorans	CM5-1	Scaffold	55	KEEP	passed
+GCF_025452235.1	Devosia neptuniae	A18/4-1	Complete Genome	2	KEEP	passed
+GCF_027214225.1	Devosia neptuniae	G21611-S1	Contig	109	KEEP	passed
+GCF_030160115.1	Devosia nitrariae	NBRC 112416	Scaffold	35	KEEP	passed
+GCF_042431865.1	Devosia nitrariae	NBRC 112416	Scaffold	33	KEEP	passed
+GCF_016698645.1	Devosia oryziradicis	G19	Chromosome	1	KEEP	passed
+GCF_014837245.1	Devosia oryzisoli	PTR5	Scaffold	13	KEEP	passed
+GCF_014652635.1	Devosia pacifica	KCTC 32437	Scaffold	9	KEEP	passed
+GCF_042181575.1	Devosia polycyclovorans	Naph2	Complete Genome	4	KEEP	passed
+GCF_900112505.1	Devosia psychrophila	CGMCC 1.10210	Scaffold	85	KEEP	passed
+GCF_000971275.1	Devosia psychrophila	Cr7-05	Contig	239	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCF_016698665.1	Devosia rhizoryzae	LEGU1	Chromosome	1	KEEP	passed
+GCF_030177755.1	Devosia rhizosphaerae	RR2S18	Complete Genome	1	KEEP	passed
+GCF_028816475.1	Devosia rhodophyticola	G2-5	Chromosome	1	KEEP	passed
+GCF_000743575.1	Devosia riboflavina	IFO13584	Contig	113	KEEP	passed
+GCF_977014175.1	Devosia riboflavina	Ri144	Contig	2	KEEP	passed
+GCF_019504385.1	Devosia salina	SCS-3	Complete Genome	1	KEEP	passed
+GCF_016411825.1	Devosia sediminis	MSA67	Contig	16	KEEP	passed
+GCF_000970455.1	Devosia soli	GH2-10	Contig	48	KEEP	passed
+GCF_014860165.1	Devosia sp.	MAG39	Contig	87	KEEP	passed
+GCF_015234425.1	Devosia sp.	N26CT	Scaffold	74	KEEP	passed
+GCF_016793625.1	Devosia sp.	new MAG-136	Contig	68	EXCLUDE_MAG	keyword
+GCF_017306945.1	Devosia sp.	SCN18_25_8_15_R2_B_67_10	Scaffold	426	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCF_017307475.1	Devosia sp.	SCN18_26_2_15_R2_B_67_34	Scaffold	16	KEEP	passed
+GCF_017307495.1	Devosia sp.	SCN18_30_10_14_R3_P_66_71	Contig	40	KEEP	passed
+GCF_017307535.1	Devosia sp.	SCN18_30_10_14_R3_B_66_58	Contig	18	KEEP	passed
+GCF_017307565.1	Devosia sp.	SCN18_25_8_15_R2_B_62_9	Scaffold	526	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCF_017744655.1	Devosia sp.	BIN32	Scaffold	14	KEEP	passed
+GCF_024707125.1	Devosia sp.	46_gen_cov.3	Contig	13	KEEP	passed
+GCF_025809055.1	Devosia sp.	TGS_PRO11	Chromosome	1	KEEP	passed
+GCF_028290435.1	Devosia sp.	RYN_494	Contig	99	KEEP	passed
+GCF_028290625.1	Devosia sp.	RYN_485	Contig	60	KEEP	passed
+GCF_028290645.1	Devosia sp.	RYN_484	Contig	423	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCF_030689745.1	Devosia sp.	C24_concoct.bin.2	Contig	241	EXCLUDE_MAG	keyword
+GCF_032654625.1	Devosia sp.	MAG.19	Contig	1	EXCLUDE_MAG	keyword
+GCF_034675085.1	Devosia sp.	R32x_41d_il_Bin2.20	Contig	488	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCF_035944845.1	Devosia sp.	SMAG_U6398	Contig	144	KEEP	passed
+GCF_036406155.1	Devosia sp.	SMAG_U3639	Contig	250	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCF_036563435.1	Devosia sp.	SMAG_U7146	Contig	20	KEEP	passed
+GCF_036675525.1	Devosia sp.	LC081	Contig	435	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCF_036676215.1	Devosia sp.	LC044	Contig	236	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCF_039916045.1	Devosia sp.	cluster1_bin.385	Contig	78	KEEP	passed
+GCF_039927955.1	Devosia sp.	cluster1_bin.570	Contig	78	KEEP	passed
+GCF_040509215.1	Devosia sp.	T4R2UO.40.metabat2	Contig	411	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCF_041917035.1	Devosia sp.	EBPR_s431bin.24	Scaffold	456	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCF_044339425.1	Devosia sp.	ME2004-10-12_3300042433_group2_bin8	Contig	397	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCF_048261455.1	Devosia sp.	ET04-05	Scaffold	40	KEEP	passed
+GCF_051302775.1	Devosia sp.	3300055174_60	Contig	134	KEEP	passed
+GCF_051861085.1	Devosia sp.	CCAP1427_2_bin-006	Scaffold	69	KEEP	passed
+GCF_053550215.1	Devosia sp.	isolate1_meta_1_34	Contig	25	KEEP	passed
+GCF_053579715.1	Devosia sp.	MAG_glacier_58	Contig	32	KEEP	passed
+GCF_053579735.1	Devosia sp.	MAG_glacier_57	Contig	89	KEEP	passed
+GCF_054605195.1	Devosia sp.	ML34-012-05	Scaffold	97	KEEP	passed
+GCF_055633315.1	Devosia sp.	ML34-006-05	Scaffold	111	KEEP	passed
+GCF_059070485.1	Devosia sp.	TerP_2	Contig	1	KEEP	passed
+GCF_059496905.1	Devosia sp.	MAG-363	Scaffold	98	EXCLUDE_MAG	keyword
+GCF_059500465.1	Devosia sp.	MAG-402	Scaffold	34	EXCLUDE_MAG	keyword
+GCF_059500685.1	Devosia sp.	MAG-239	Scaffold	43	EXCLUDE_MAG	keyword
+GCF_059501485.1	Devosia sp.	MAG-193	Contig	14	EXCLUDE_MAG	keyword
+GCF_059502145.1	Devosia sp.	MAG-157	Scaffold	457	EXCLUDE_MAG	keyword
+GCF_059502305.1	Devosia sp.	MAG-388	Scaffold	34	EXCLUDE_MAG	keyword
+GCF_059502345.1	Devosia sp.	MAG-440	Scaffold	27	EXCLUDE_MAG	keyword
+GCF_059503365.1	Devosia sp.	MAG-88	Scaffold	25	EXCLUDE_MAG	keyword
+GCF_060543835.1	Devosia sp.	MAG2281	Contig	60	KEEP	passed
+GCF_060548285.1	Devosia sp.	MAG2274	Contig	99	KEEP	passed
+GCF_060837025.1	Devosia sp.	gs.1606	Contig	227	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCF_965229025.1	Devosia sp.	3d186a37-0bcd-4ac1-b259-f5c9590ee027	Complete Genome	1	KEEP	passed
+GCF_982658275.1	Devosia sp.	BERT20-1_SAMN15778598_MAG_00000116	Scaffold	115	KEEP	passed
+GCF_988128355.1	Devosia sp.	MFD15210.bin.c.238	Complete Genome	1	EXCLUDE_MAG	keyword
+GCF_988201035.1	Devosia sp.	MFD15093.bin.s.13	Complete Genome	1	EXCLUDE_MAG	keyword
+GCF_004005995.1	Devosia sp. 1566	1566	Complete Genome	1	KEEP	passed
+GCF_013185955.1	Devosia sp. 1635	1635	Contig	11	KEEP	passed
+GCF_040546815.1	Devosia sp. 2618	2618	Contig	4	KEEP	passed
+GCF_001899045.1	Devosia sp. 63-57	63-57	Scaffold	8	KEEP	passed
+GCF_001899085.1	Devosia sp. 66-14	66-14	Scaffold	13	KEEP	passed
+GCF_001899065.1	Devosia sp. 66-22	66-22	Scaffold	31	KEEP	passed
+GCF_001899075.1	Devosia sp. 67-54	67-54	Scaffold	12	KEEP	passed
+GCF_013185965.1	Devosia sp. 919	919	Contig	11	KEEP	passed
+GCF_001402915.1	Devosia sp. A16	A16	Complete Genome	1	KEEP	passed
+GCF_054489345.1	Devosia sp. A369	A369	Contig	67	KEEP	passed
+GCF_054489375.1	Devosia sp. A449	A449	Contig	23	KEEP	passed
+GCF_032907385.1	Devosia sp. BK	BK	Contig	15	KEEP	passed
+GCF_054482695.1	Devosia sp. CAU 1758	CAU 1758	Scaffold	9	KEEP	passed
+GCF_060038265.1	Devosia sp. CFBP9297	CFBP9297	Complete Genome	1	KEEP	passed
+GCF_049354815.1	Devosia sp. CN2-171	CN2-171	Complete Genome	1	KEEP	passed
+GCF_029201545.1	Devosia sp. FJ2-5-3	FJ2-5-3	Complete Genome	1	KEEP	passed
+GCF_005222805.1	Devosia sp. FKR38	FKR38	Scaffold	6	KEEP	passed
+GCF_055809215.1	Devosia sp. G20-12	G20-12	Complete Genome	1	KEEP	passed
+GCF_058806655.1	Devosia sp. GW821-FHT12F11	GW821-FHT12F11	Scaffold	16	KEEP	passed
+GCF_002949085.1	Devosia sp. I507	I507	Complete Genome	1	KEEP	passed
+GCF_028816435.1	Devosia sp. J2-20	J2-20	Chromosome	1	KEEP	passed
+GCF_055808475.1	Devosia sp. J2-20	J2-20	Complete Genome	1	KEEP	passed
+GCF_055808595.1	Devosia sp. J20-27	J20-27	Complete Genome	1	KEEP	passed
+GCF_000735585.1	Devosia sp. LC5	LC5	Contig	47	KEEP	passed
+GCF_001425445.1	Devosia sp. Leaf420	Leaf420	Scaffold	16	KEEP	passed
+GCF_001421945.1	Devosia sp. Leaf64	Leaf64	Scaffold	24	KEEP	passed
+GCF_964252795.1	Devosia sp. LjRoot16	LjRoot16	Contig	15	KEEP	passed
+GCF_964252865.1	Devosia sp. LjRoot3	LjRoot3	Contig	17	KEEP	passed
+GCF_012847305.1	Devosia sp. MC1541	MC1541	Contig	51	KEEP	passed
+GCF_014127105.1	Devosia sp. MC521	MC521	Complete Genome	1	KEEP	passed
+GCF_016457235.1	Devosia sp. MC521	MC521	Contig	38	KEEP	passed
+GCF_016461625.1	Devosia sp. MC532	MC532	Contig	29	KEEP	passed
+GCF_058629155.1	Devosia sp. MDV22-iso42	MDV22-iso42	Scaffold	15	KEEP	passed
+GCF_056341075.1	Devosia sp. Micro-HW1	Micro-HW1	Complete Genome	1	KEEP	passed
+GCF_056405135.1	Devosia sp. P1_H9	P1_H9	Contig	32	KEEP	passed
+GCF_056403495.1	Devosia sp. P2_G7	P2_G7	Contig	33	KEEP	passed
+GCF_056402875.1	Devosia sp. P3_B2	P3_B2	Contig	35	KEEP	passed
+GCF_001424865.1	Devosia sp. Root105	Root105	Scaffold	21	KEEP	passed
+GCF_001425235.1	Devosia sp. Root413D1	Root413D1	Scaffold	14	KEEP	passed
+GCF_001426345.1	Devosia sp. Root436	Root436	Scaffold	16	KEEP	passed
+GCF_001427605.1	Devosia sp. Root635	Root635	Scaffold	24	KEEP	passed
+GCF_001427875.1	Devosia sp. Root685	Root685	Scaffold	5	KEEP	passed
+GCF_029201565.1	Devosia sp. SD17-2	SD17-2	Complete Genome	1	KEEP	passed
+GCF_021729885.1	Devosia sp. SL43	SL43	Complete Genome	2	KEEP	passed
+GCF_057657195.1	Devosia sp. Soil_C_22	Soil_C_22	Scaffold	4	KEEP	passed
+GCF_055397495.1	Devosia sp. T2-14	T2-14	Complete Genome	1	KEEP	passed
+GCF_040546795.1	Devosia sp. UYZn731	UYZn731	Contig	27	KEEP	passed
+GCF_016595685.1	Devosia sp. WQ 349K1	WQ 349K1	Contig	15	KEEP	passed
+GCF_046614475.1	Devosia sp. XGJD_8	XGJD_8	Contig	5	KEEP	passed
+GCF_037113415.1	Devosia sp. XK-2	XK-2	Complete Genome	1	KEEP	passed
+GCF_030285925.1	Devosia sp. YIM 151766	YIM 151766	Complete Genome	1	KEEP	passed
+GCF_900110945.1	Devosia sp. YR412	YR412	Contig	11	KEEP	passed
+GCF_058133665.1	Devosia sp. Z11_6	Z11_6	Contig	16	KEEP	passed
+GCF_058133495.1	Devosia sp. Z6_126	Z6_126	Contig	16	KEEP	passed
+GCF_028613635.1	Devosia sp. ZB163	ZB163	Contig	10	KEEP	passed
+GCF_044987315.1	Devosia sp. ZW T5_3	ZW T5_3	Contig	62	KEEP	passed
+GCF_014197055.1	Devosia subaequoris	DSM 23447	Contig	29	KEEP	passed
+GCF_024158985.1	Devosia subaequoris	HST3-14	Scaffold	61	KEEP	passed
+GCF_003056345.1	Devosia submarina	JCM 18935	Contig	45	KEEP	passed
+GCF_024273205.1	Devosia ureilytica	XJ19-45	Scaffold	15	KEEP	passed
+GCF_024273195.1	Devosia ureilytica	XJ19-1	Scaffold	21	KEEP	passed
+GCF_030159855.1	Devosia yakushimensis	NBRC 103855	Scaffold	11	KEEP	passed
+GCF_913055165.1	uncultured Devosia sp.	SRR6201692_bin.23_MetaBAT_v2.12.1_MAG	Contig	123	EXCLUDE_UNCULTURED	name
+GCF_937906035.1	uncultured Devosia sp.	SRR3901701_bin.62_CONCOCT_v1.1_MAG	Contig	98	EXCLUDE_UNCULTURED	name
+GCF_938009725.1	uncultured Devosia sp.	SRR3901706_bin.58_CONCOCT_v1.1_MAG	Contig	52	EXCLUDE_UNCULTURED	name
+GCF_963975395.1	uncultured Devosia sp.	ERR2762110_binner23_Refined_70	Contig	13	EXCLUDE_UNCULTURED	name
+GCF_964244875.1	uncultured Devosia sp.	public_SRR11456921_metawrap_bin.9	Contig	25	EXCLUDE_UNCULTURED	name
+GCA_025050525.1	Candidatus Devosia euplotis	LIV5	Contig	831	EXCLUDE_UNCULTURED	name
+GCA_029202405.1	Candidatus Devosia phytovorans	MAG_4196	Complete Genome	1	EXCLUDE_UNCULTURED	name
+GCA_025050575.1	Candidatus Devosia symbiotica	Na2	Contig	139	EXCLUDE_UNCULTURED	name
+GCA_056095215.1	Devosia equisanguinis	bin_qSIP_UBC.71	Contig	54	KEEP	passed
+GCA_943367655.1	Devosia equisanguinis	JJ-K1K20-67-8-m2-bin53	Contig	519	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_943372435.1	Devosia equisanguinis	JJ-MEM5D2-223-7-m1-bin346	Contig	17	KEEP	passed
+GCA_945862355.1	Devosia equisanguinis	MH-08apr19-168	Scaffold	353	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_945888565.1	Devosia equisanguinis	MH-09jul19-238	Contig	456	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_945889015.1	Devosia equisanguinis	MH-09jul19-70	Contig	360	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_945901835.1	Devosia equisanguinis	MoH-02may19-1	Contig	691	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_945903565.1	Devosia equisanguinis	TrH-03may19-229	Contig	577	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_040392725.1	Devosia ginsengisoli	T2.bin.251	Contig	389	EXCLUDE_MAG	keyword
+GCA_040393585.1	Devosia ginsengisoli	T2.bin.19	Contig	382	EXCLUDE_MAG	keyword
+GCA_977257245.1	Devosia indica	MarMAG_050631	Scaffold	483	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_047616975.1	Devosia litorisediminis	3300055174_68	Contig	13	KEEP	passed
+GCA_977190485.1	Devosia litorisediminis	MarMAG_016611	Scaffold	57	KEEP	passed
+GCA_977202345.1	Devosia litorisediminis	MarMAG_016610	Scaffold	21	KEEP	passed
+GCA_977206845.1	Devosia litorisediminis	MarMAG_016614	Contig	13	KEEP	passed
+GCA_977242165.1	Devosia litorisediminis	MarMAG_016613	Scaffold	12	KEEP	passed
+GCA_977254065.1	Devosia litorisediminis	MarMAG_016612	Scaffold	21	KEEP	passed
+GCA_913055185.1	Devosia lucknowensis	SRR6201692_bin.12_MetaBAT_v2.12.1_MAG	Contig	40	KEEP	passed
+GCA_937124515.1	Devosia lucknowensis	ERR2094164_bin.7_CONCOCT_v1.1_MAG	Contig	345	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_016198555.1	Devosia nanyangense	NC_groundwater_1123_Ag_S-0.1um_64_12	Contig	1396	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_016213505.1	Devosia nanyangense	NC_groundwater_1586_Pr3_B-0.1um_66_15	Contig	69	KEEP	passed
+GCA_003231995.1	Devosia sp.	SZUA-45	Contig	192	KEEP	passed
+GCA_003232055.1	Devosia sp.	SZUA-31	Contig	206	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_003232575.1	Devosia sp.	SZUA-62	Contig	564	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_003233265.1	Devosia sp.	SZUA-25	Contig	327	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_011322005.1	Devosia sp.	HyVt-528	Contig	334	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_011371245.1	Devosia sp.	HyVt-592	Contig	417	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_011388685.1	Devosia sp.	HyVt-508	Contig	514	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_015657675.1	Devosia sp.	Bin1	Contig	317	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_016713105.1	Devosia sp.	Fred_18-Q3-R57-64_BATAC.601	Contig	23	KEEP	passed
+GCA_016793415.1	Devosia sp.	new MAG-137	Contig	1006	EXCLUDE_MAG	keyword
+GCA_017307635.1	Devosia sp.	SCN18_30_10_14_R3_P_66_9	Scaffold	491	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_017794705.1	Devosia sp.	ih3	Chromosome	1	KEEP	passed
+GCA_025351945.1	Devosia sp.	340R_metabat_36_sub	Contig	915	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_025352765.1	Devosia sp.	337R_metabat_105_sub	Contig	751	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_026126125.1	Devosia sp.	TGS_PRO12	Contig	302	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_028290225.1	Devosia sp.	RYN_506	Contig	370	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_028290245.1	Devosia sp.	RYN_505	Contig	491	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_028290525.1	Devosia sp.	RYN_490	Contig	538	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_028290665.1	Devosia sp.	RYN_483	Contig	28	KEEP	passed
+GCA_028290685.1	Devosia sp.	RYN_481	Contig	233	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_029256605.1	Devosia sp.	L_E1_T20_A_bin.18	Contig	426	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_029266375.1	Devosia sp.	L_E1_T20_A_bin.104	Scaffold	703	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_030645255.1	Devosia sp.	E19_concoct.bin.30_sub	Contig	673	EXCLUDE_MAG	keyword
+GCA_030680995.1	Devosia sp.	C15_concoct.bin.117	Contig	257	EXCLUDE_MAG	keyword
+GCA_030694505.1	Devosia sp.	C18_concoct.bin.147_sub	Contig	685	EXCLUDE_MAG	keyword
+GCA_031291525.1	Devosia sp.	MAG_CA30	Contig	392	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_035307065.1	Devosia sp.	SMAG_U10330	Contig	512	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_035433065.1	Devosia sp.	AMR_MDS_5270	Scaffold	213	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_035497335.1	Devosia sp.	SMAG_U15411	Contig	1193	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_035497475.1	Devosia sp.	SMAG_U15412	Contig	1103	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_035497575.1	Devosia sp.	SMAG_U15398	Contig	910	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_035515115.1	Devosia sp.	SMAG_U15367	Contig	761	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_035547675.1	Devosia sp.	SMAG_U6100	Contig	297	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_035548015.1	Devosia sp.	SMAG_U6080	Contig	325	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_035548755.1	Devosia sp.	SMAG_U6045	Contig	229	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_035549855.1	Devosia sp.	SMAG_U5983	Contig	106	KEEP	passed
+GCA_035564755.1	Devosia sp.	SMAG_U13010	Contig	288	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_035565135.1	Devosia sp.	SMAG_U12998	Contig	230	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_035565515.1	Devosia sp.	SMAG_U12980	Contig	347	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_035656035.1	Devosia sp.	SMAG_U6858	Contig	392	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_035656235.1	Devosia sp.	SMAG_U6405	Contig	698	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_035998315.1	Devosia sp.	SMAG_U4249	Contig	353	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_035998575.1	Devosia sp.	SMAG_U4240	Contig	27	KEEP	passed
+GCA_036272315.1	Devosia sp.	SMAG_U5693	Contig	588	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_036399415.1	Devosia sp.	SMAG_U3403	Contig	762	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_036401035.1	Devosia sp.	SMAG_U3649	Contig	456	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_036568845.1	Devosia sp.	SMAG_U7285	Contig	596	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_036675975.1	Devosia sp.	LC055	Contig	249	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_039808625.1	Devosia sp.	AS-MESO-3CA.353	Contig	360	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_039916605.1	Devosia sp.	cluster1_bin.36	Contig	190	KEEP	passed
+GCA_039918675.1	Devosia sp.	cluster1_bin.267	Contig	170	KEEP	passed
+GCA_039920085.1	Devosia sp.	cluster1_bin.202	Contig	195	KEEP	passed
+GCA_039921955.1	Devosia sp.	cluster1_bin.118	Contig	219	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_039924965.1	Devosia sp.	cluster1_bin.95	Contig	903	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_039934695.1	Devosia sp.	cluster3_bin.106	Contig	809	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_039934955.1	Devosia sp.	cluster2_bin.91	Contig	131	KEEP	passed
+GCA_039935535.1	Devosia sp.	cluster2_bin.68	Contig	574	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_039938275.1	Devosia sp.	cluster2_bin.210	Contig	246	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_040007135.1	Devosia sp.	cluster3_bin.7	Contig	295	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_040081185.1	Devosia sp.	ATF_12	Contig	468	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_040081595.1	Devosia sp.	ASF_14	Contig	140	KEEP	passed
+GCA_040218355.1	Devosia sp.	D1-CHI-27	Contig	25	KEEP	passed
+GCA_040391115.1	Devosia sp.	T2.bin.9	Contig	368	EXCLUDE_MAG	keyword
+GCA_040392665.1	Devosia sp.	T2.bin.26	Contig	400	EXCLUDE_MAG	keyword
+GCA_041583575.1	Devosia sp.	Mix_sand07.2021.05.G.13	Contig	784	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_041916675.1	Devosia sp.	EBPR_s472bin.20	Contig	18	KEEP	passed
+GCA_041916695.1	Devosia sp.	EBPR_s472bin.1	Contig	87	KEEP	passed
+GCA_041916915.1	Devosia sp.	EBPR_s431bin.7	Scaffold	324	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_041937945.1	Devosia sp.	WDNA15_bin.34.orig	Contig	550	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_041939225.1	Devosia sp.	WDNA14_bin.2.strict	Scaffold	377	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_044224395.1	Devosia sp.	MAG_MBR_H10.15	Scaffold	41	KEEP	passed
+GCA_046293755.1	Devosia sp.	21I_057.bin.13	Scaffold	670	EXCLUDE_MAG	keyword
+GCA_046594305.1	Devosia sp.	ant_bin.602	Contig	453	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_046595115.1	Devosia sp.	ant_bin.452	Contig	455	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_046596525.1	Devosia sp.	ant_bin.315	Contig	625	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_046716545.1	Devosia sp.	swi_bin.160	Contig	1455	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_049241845.1	Devosia sp.	LE_258156	Scaffold	804	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_049647065.1	Devosia sp.	MFD04287_ilm_asm_bin2	Contig	239	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_051016205.1	Devosia sp.	RCC3390_8c	Complete Genome	1	KEEP	passed
+GCA_051859205.1	Devosia sp.	SAMS01UC_bin-005	Scaffold	525	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_051952915.1	Devosia sp.	bin951	Contig	765	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_051953275.1	Devosia sp.	bin894	Contig	246	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_051959485.1	Devosia sp.	bin173	Contig	492	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_051961055.1	Devosia sp.	bin1039	Contig	502	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_053550635.1	Devosia sp.	isolate1_meta_1_80	Contig	384	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_053550655.1	Devosia sp.	isolate1_meta_1_82	Contig	168	KEEP	passed
+GCA_054605335.1	Devosia sp.	ML34-007-25	Scaffold	405	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_055129445.1	Devosia sp.	BOW-1_PF_day65_bin.77	Contig	233	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_055643505.1	Devosia sp.	SemiBin_447	Contig	342	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_057175685.1	Devosia sp.	F17_MAG_28	Complete Genome	1	KEEP	passed
+GCA_057355825.1	Devosia sp.	isolate22_meta_2_39	Contig	333	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_057356985.1	Devosia sp.	isolate26_meta_2_36	Contig	165	KEEP	passed
+GCA_057358705.1	Devosia sp.	isolate4_meta_2_48	Contig	97	KEEP	passed
+GCA_057360965.1	Devosia sp.	isolate47_meta_1_24	Contig	225	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_057361525.1	Devosia sp.	isolate7_meta_1_7	Contig	140	KEEP	passed
+GCA_057361605.1	Devosia sp.	isolate7_meta_2_6	Contig	51	KEEP	passed
+GCA_059497055.1	Devosia sp.	MAG-354	Scaffold	794	EXCLUDE_MAG	keyword
+GCA_059499205.1	Devosia sp.	MAG-321	Scaffold	796	EXCLUDE_MAG	keyword
+GCA_059499225.1	Devosia sp.	MAG-322	Scaffold	796	EXCLUDE_MAG	keyword
+GCA_059499965.1	Devosia sp.	MAG-282	Scaffold	14	EXCLUDE_MAG	keyword
+GCA_059500265.1	Devosia sp.	MAG-265	Scaffold	15	EXCLUDE_MAG	keyword
+GCA_059500365.1	Devosia sp.	MAG-260	Scaffold	98	EXCLUDE_MAG	keyword
+GCA_059501245.1	Devosia sp.	MAG-206	Scaffold	464	EXCLUDE_MAG	keyword
+GCA_059501525.1	Devosia sp.	MAG-192	Scaffold	21	EXCLUDE_MAG	keyword
+GCA_059501685.1	Devosia sp.	MAG-183	Scaffold	33	EXCLUDE_MAG	keyword
+GCA_059501745.1	Devosia sp.	MAG-181	Scaffold	587	EXCLUDE_MAG	keyword
+GCA_059504385.1	Devosia sp.	MAG-29	Scaffold	15	EXCLUDE_MAG	keyword
+GCA_059951055.1	Devosia sp.	MAG-116	Scaffold	905	EXCLUDE_MAG	keyword
+GCA_060610975.1	Devosia sp.	MAG3389	Contig	51	KEEP	passed
+GCA_060836945.1	Devosia sp.	gs.1152	Contig	215	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_062008457.1	Devosia sp.	US1_semibin2.181	Contig	10	KEEP	passed
+GCA_982782315.1	Devosia sp.	DUAR15-1_SAMN06266124_MAG_00000017	Scaffold	641	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_982926565.1	Devosia sp.	LOPE16-1_SAMN05213993_MAG_00000010	Scaffold	643	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_983087745.1	Devosia sp.	SONG20-1_SAMN10739805_MAG_00000119	Scaffold	484	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_000743515.1	Devosia sp. 17-2-E-8	17-2-E-8	Scaffold	124	KEEP	passed
+GCA_025452255.1	Devosia sp. A8/3-2	A8/3-2	Complete Genome	2	KEEP	passed
+GCA_014083885.1	Devosia sp. D6-9	D6-9	Complete Genome	1	KEEP	passed
+GCA_000689495.1	Devosia sp. DBB001	DDB001	Contig	95	KEEP	passed
+GCA_001185205.1	Devosia sp. H5989	H5989	Complete Genome	1	KEEP	passed
+GCA_001724185.1	Devosia sp. SCN 66-27		Scaffold	254	EXCLUDE_FRAGMENTED	>200 scaffolds
+GCA_902168155.1	uncultured Devosia sp.	Devosia_sp_nbed14b33	Contig	80	EXCLUDE_MAG	keyword
+GCA_913053625.1	uncultured Devosia sp.	SRR6201726_bin.15_MetaBAT_v2.12.1_MAG	Contig	622	EXCLUDE_UNCULTURED	name
+GCA_913775215.1	uncultured Devosia sp.	SP51_2_metabat2_genome_mining.38_sub	Contig	504	EXCLUDE_UNCULTURED	name
+GCA_934501335.1	uncultured Devosia sp.	REFINED_METABAT215_TOP10_CONTIGS_1500_ASSEMBLY_K77_MERGED__Hadza_MoBio_hadza-A-D_L_1_1540.37	Contig	792	EXCLUDE_UNCULTURED	name
+GCA_934553185.1	uncultured Devosia sp.	REFINED_METABAT215_TOP10_CONTIGS_1500_ASSEMBLY_K77_MERGED__Hadza_MoBio_hadza-E-H_A_18_1822.352	Contig	622	EXCLUDE_UNCULTURED	name
+GCA_937879835.1	uncultured Devosia sp.	SRR3901698_bin.80_CONCOCT_v1.1_MAG	Contig	13	EXCLUDE_UNCULTURED	name
+GCA_963517015.1	uncultured Devosia sp.	ERR9968751_bin.3_MetaWRAP_v1.3_MAG	Contig	4	EXCLUDE_UNCULTURED	name
+GCA_963975335.1	uncultured Devosia sp.	ERR2762108_metabat2_133	Contig	437	EXCLUDE_UNCULTURED	name
+GCA_963975955.1	uncultured Devosia sp.	ERR2762133_binner13_Refined_18	Contig	719	EXCLUDE_UNCULTURED	name
+GCA_964277895.1	uncultured Devosia sp.	maxbin_SP123_3.025_sub_cleaned	Contig	1208	EXCLUDE_UNCULTURED	name
+GCA_964371325.1	uncultured Devosia sp.	ERP124720_co1_74	Scaffold	1062	EXCLUDE_UNCULTURED	name
+GCA_964399695.1	uncultured Devosia sp.	binchicken_co214_15	Scaffold	47	EXCLUDE_UNCULTURED	name
+GCA_964414845.1	uncultured Devosia sp.	binchicken_co214_23	Scaffold	374	EXCLUDE_UNCULTURED	name
+GCA_964425245.1	uncultured Devosia sp.	SRP263527_co1_107	Scaffold	571	EXCLUDE_UNCULTURED	name
+GCA_964428685.1	uncultured Devosia sp.	binchicken_co84_17	Contig	330	EXCLUDE_UNCULTURED	name
+GCA_964445495.1	uncultured Devosia sp.	binchicken_co84_376	Contig	352	EXCLUDE_UNCULTURED	name
+GCA_964474385.1	uncultured Devosia sp.	SRP263527_co2_2	Scaffold	606	EXCLUDE_UNCULTURED	name
+GCA_964487765.1	uncultured Devosia sp.	SRP263527_co2_191	Scaffold	367	EXCLUDE_UNCULTURED	name
+GCA_964498125.1	uncultured Devosia sp.	binchicken_co165_338	Contig	148	EXCLUDE_UNCULTURED	name
+GCA_964498695.1	uncultured Devosia sp.	SRP128015_co3_38	Scaffold	626	EXCLUDE_UNCULTURED	name
+GCA_964524675.1	uncultured Devosia sp.	binchicken_co50_230	Scaffold	1207	EXCLUDE_UNCULTURED	name
+GCA_964569865.1	uncultured Devosia sp.	SRP128015_co1_164	Scaffold	159	EXCLUDE_UNCULTURED	name
+GCA_964570695.1	uncultured Devosia sp.	binchicken_co54_470	Scaffold	231	EXCLUDE_UNCULTURED	name
+GCA_964574325.1	uncultured Devosia sp.	SRP287051_co2_2	Scaffold	259	EXCLUDE_UNCULTURED	name
+GCA_965650055.1	uncultured Devosia sp.	ERR5385031_binner23_Refined_8	Contig	346	EXCLUDE_UNCULTURED	name
+GCA_965650545.1	uncultured Devosia sp.	SRR14536362_metabat2_17	Contig	444	EXCLUDE_UNCULTURED	name
+GCA_965651655.1	uncultured Devosia sp.	SRR17295757_maxbin2_10	Contig	359	EXCLUDE_UNCULTURED	name
+GCA_965653575.1	uncultured Devosia sp.	SRR29654721_binner13_Refined_4	Contig	809	EXCLUDE_UNCULTURED	name
+GCA_966192215.1	uncultured Devosia sp.	SRR29014960_concoct_11	Contig	442	EXCLUDE_UNCULTURED	name
+GCA_966212275.1	uncultured Devosia sp.	SRR18156209_concoct_62	Contig	72	EXCLUDE_UNCULTURED	name
+GCA_966212455.1	uncultured Devosia sp.	SRR18156189_binner13_Refined_31	Contig	683	EXCLUDE_UNCULTURED	name
+GCA_969251735.1	uncultured Devosia sp.	SRR23595521_metabat2_40	Contig	566	EXCLUDE_UNCULTURED	name

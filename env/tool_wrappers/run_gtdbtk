@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+export PATH="$HOME/miniconda3/envs/gtdbtk/bin:$PATH"
+export PYTHONNOUSERSITE=1
+exec gtdbtk "$@"
