@@ -1,0 +1,15 @@
+[2026-10-02 22:20:35] INFO: GTDB-Tk v2.7.2
+[2026-10-02 22:20:35] INFO: gtdbtk identify --genome_dir results/04_gtdbtk/input_genomes --out_dir results/05_phylogeny/identify_all --extension fna --cpus 16
+[2026-10-02 22:20:35] INFO: Using GTDB-Tk reference data version r232: /dgxb_home/se26plsc001/arvind/Devosia_BGC/data/databases/gtdbtk_r232/release232
+[2026-10-02 22:20:41] INFO: Identifying marker genes in 138 genome(s).
+[2026-10-02 22:20:41] INFO: Identifying markers in 138 genomes with 16 threads.
+[2026-10-02 22:20:41] TASK: Running Prodigal V2.6.3 to identify genes.
+[2026-10-02 22:25:00] INFO: Completed 138 genomes in 4.32 minutes (31.98 genomes/minute).
+[2026-10-02 22:25:00] TASK: Identifying TIGRFAM protein families.
+[2026-10-02 22:26:13] INFO: Completed 138 genomes in 1.21 minutes (113.97 genomes/minute).
+[2026-10-02 22:26:13] TASK: Identifying Pfam protein families.
+[2026-10-02 22:26:17] INFO: Completed 138 genomes in 3.54 seconds (38.97 genomes/second).
+[2026-10-02 22:26:17] INFO: Annotations done using HMMER 3.4 (Aug 2023).
+[2026-10-02 22:26:17] TASK: Summarising identified marker genes.
+[2026-10-02 22:26:19] INFO: Completed 138 genomes in 2.78 seconds (49.58 genomes/second).
+[2026-10-02 22:26:19] INFO: Done.

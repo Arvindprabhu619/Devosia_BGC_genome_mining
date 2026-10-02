@@ -40,7 +40,7 @@ while read -r acc; do
     [[ -z "$acc" ]] && continue
     fasta=$(awk -F'\t' -v a="$acc" '$1==a {print $2}' "${DATA_META}/genome_manifest.tsv")
     if [[ -n "$fasta" && -f "$fasta" ]]; then
-        ln -sf "$fasta" "$INPUT_DIR/${acc}.fna"
+        ln -sf "$fasta" "$INPUT_DIR/query_${acc}.fna"
         n=$((n+1))
     fi
 done < "${RES_CHECKM2}/quality_passed.txt"
@@ -74,7 +74,7 @@ with open(summary_file) as f:
         parts = line.strip().split("\t")
         if len(parts) < 2:
             continue
-        acc = parts[0].replace(".fna", "")
+        acc = parts[0].replace(".fna", "").replace("query_", "")
         taxonomy = parts[1]
         rows.append((acc, taxonomy))
 

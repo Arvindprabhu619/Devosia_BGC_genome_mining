@@ -37,7 +37,8 @@ export FASTTREE="${WRAPPER_BIN}/run_fasttree"
 export DATASETS="${WRAPPER_BIN}/run_datasets"
 
 # --- Databases ---
-export GTDBTK_DATA="$HOME/miniconda3/envs/gtdbtk/share/gtdbtk-2.7.2"
+export GTDBTK_DATA="${DATA_DB}/gtdbtk_r232/release232"
+export GTDBTK_DATA_PATH="${GTDBTK_DATA}"
 export CHECKM2_DB="${DATA_DB}/checkm2_db/CheckM2_database/uniref100.KO.1.dmnd"
 export PFAM_HMM="${DATA_DB}/Pfam-A.hmm"
 export MIBIG_JSON_DIR="$HOME/miniconda3/envs/antismash/lib/python3.10/site-packages/antismash/databases/clustercompare/mibig"
