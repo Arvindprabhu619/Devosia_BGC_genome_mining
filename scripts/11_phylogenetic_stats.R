@@ -137,7 +137,9 @@ if (ncol(class_matrix) > 0 && requireNamespace("phylolm", quietly = TRUE)) {
 
     fit <- tryCatch({
       d <- data.frame(y = y)
-      m <- phylolm::phylolm(y ~ 1, data = d, phy = tree, model = "logistic_MPLE")
+      tree_binary <- ape::multi2di(tree)
+      tree_binary$edge.length[tree_binary$edge.length == 0] <- 1e-8
+      m <- phylolm::phyloglm(y ~ 1, data = d, phy = tree_binary, method = "logistic_MPLE")
       list(coef = coef(m)[1], se = summary(m)$coefficients[1, 2],
            p = summary(m)$coefficients[1, 4])
     }, error = function(e) NULL)

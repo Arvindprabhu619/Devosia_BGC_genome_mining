@@ -2,5 +2,5 @@ Phylogenetic stats summary
 
 Tree tips:         124
 Pagel's lambda:    2 traits tested
-Logistic reg:      not run
+Logistic reg:      19 classes, 15 significant
 
