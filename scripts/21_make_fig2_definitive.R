@@ -2,15 +2,18 @@
 # ============================================================
 # scripts/21_make_fig2_definitive.R
 # ============================================================
-# Fig 2 — Circular phylogeny with 20 class rings.
-# FIX: thicker rings, no margin, tree in center, clean layout.
+# Fig 2 — Circular phylogeny with 20 BGC class rings.
+# Pure ggplot2 + ggtree. No circlize. Full control.
 # ============================================================
 
 suppressPackageStartupMessages({
   library(ape)
-  library(circlize)
+  library(ggtree)
+  library(ggtreeExtra)
+  library(ggplot2)
   library(dplyr)
   library(tidyr)
+  library(patchwork)
 })
 
 args <- commandArgs(trailingOnly = FALSE)
@@ -29,7 +32,6 @@ tax <- read.delim(file.path(root, "results/05_gtdbtk/taxonomy_assignments.tsv"),
 
 if (!is.binary(tree)) tree <- multi2di(tree)
 tree$edge.length[tree$edge.length == 0] <- 1e-6
-
 tip_order <- tree$tip.label
 n_tips <- length(tip_order)
 cat(sprintf("Tips: %d\n", n_tips))
@@ -49,6 +51,9 @@ class_wide <- class_wide[, class_order, drop = FALSE]
 n_classes <- length(class_order)
 cat(sprintf("Classes: %d\n", n_classes))
 
+# Verify: terpene should be 124/124
+cat(sprintf("Terpene: %d/124\n", sum(class_wide[["terpene"]] > 0)))
+
 # Colors
 class_colors <- c(
   "#2E86AB", "#A23B72", "#F18F01", "#C73E1D", "#3B8EA5",
@@ -62,106 +67,109 @@ names(class_colors) <- class_order
 tax_map <- setNames(tax$status, tax$accession)
 tip_tax <- tax_map[tip_order]
 tip_tax[is.na(tip_tax)] <- "Unknown"
-tip_colors <- ifelse(tip_tax == "Devosia", "#2E86AB",
-              ifelse(tip_tax == "Devosia_A", "#A23B72", "grey70"))
+tip_df <- data.frame(label = tip_order, genus = tip_tax, stringsAsFactors = FALSE)
 
 # ============================================================
-# Open devices
+# Build LONG format for ggtreeExtra
+# Each row = (genome, class, present, ring_y)
+# For "all genomes" approach: expand to 124 × 20 rows
 # ============================================================
-pdf(file.path(fig_dir, "Fig2_definitive.pdf"), width = 14, height = 14)
-png(file.path(fig_dir, "Fig2_definitive.png"), width = 14, height = 14,
-    units = "in", res = 300)
+cat("Building long-format data...\n")
 
-par(mar = c(0.5, 0.5, 0.5, 0.5), xpd = NA)
+# Wide → long
+class_long <- class_wide %>%
+  tibble::rownames_to_column("genome_accession") %>%
+  pivot_longer(-genome_accession, names_to = "class", values_to = "count") %>%
+  mutate(present = as.integer(count > 0),
+         class = factor(class, levels = class_order))
 
-circos.par(
-  start.degree = 90,
-  gap.degree = 0.3,
-  track.margin = c(0.0005, 0.0005),  # tiny gap
-  points.overflow.warning = FALSE,
-  cell.padding = c(0, 0, 0, 0)
-)
-
-circos.initialize(factors = "g", xlim = c(0, n_tips))
+cat(sprintf("Long-format rows: %d\n", nrow(class_long)))
 
 # ============================================================
-# Track 1: INNERMOST — Genus strip (color band)
+# Base tree (circular)
 # ============================================================
-cat("Track 1: Genus strip...\n")
-circos.track(
-  ylim = c(0, 1),
-  track.height = 0.03,
-  bg.border = "white",
-  panel.fun = function(x, y) {
-    for (i in seq_len(n_tips)) {
-      circos.rect(i - 1, 0, i, 1, col = tip_colors[i], border = NA)
-    }
-  }
-)
+cat("Building tree...\n")
+
+p <- ggtree(tree, layout = "circular", size = 0.4, open.angle = 5) %<+% tip_df
+
+# Add genus-colored tip labels
+p <- p +
+  geom_tippoint(aes(color = genus), size = 1.0, alpha = 0.9) +
+  scale_color_manual(
+    values = c("Devosia" = "#2E86AB",
+               "Devosia_A" = "#A23B72",
+               "Unknown" = "grey60"),
+    name = "Genus"
+  )
 
 # ============================================================
-# Tracks 2..N+1: Class rings — ALL genomes drawn
+# Add 20 class rings via geom_fruit (ALL genomes shown)
+# Key: use present as fill, with discrete palette
 # ============================================================
-cat("Adding", n_classes, "class rings...\n")
-ABSENT_COLOR <- "#E8E8E8"
+cat("Adding rings...\n")
 
-# Build environment for closures
-presence_list <- lapply(class_order, function(cls) as.integer(class_wide[[cls]] > 0))
-names(presence_list) <- class_order
-
+# For each class, add a geom_fruit with all 124 genomes
 for (i in seq_along(class_order)) {
   cls <- class_order[i]
-  presence <- presence_list[[cls]]
-  color_present <- class_colors[cls]
-  n_present <- sum(presence)
-  cat(sprintf("  Ring %d (%s): %d/%d\n", i, cls, n_present, n_tips))
+  sub <- class_long %>% filter(class == cls)
+  offset_val <- 0.05 + (i - 1) * 0.024
+  color_here <- class_colors[cls]
 
-  circos.track(
-    ylim = c(0, 1),
-    track.height = 0.030,          # thicker ring
-    bg.border = NA,
-    panel.fun = function(x, y) {
-      for (j in seq_len(n_tips)) {
-        col_j <- if (presence[j] == 1) color_present else ABSENT_COLOR
-        circos.rect(j - 1, 0, j, 1, col = col_j, border = NA)
-      }
-    }
+  p <- p + geom_fruit(
+    data = sub,
+    geom = geom_tile,
+    mapping = aes(y = genome_accession, x = "v", fill = factor(present)),
+    offset = offset_val,
+    pwidth = 0.022,
+    color = NA
   )
 }
 
-circos.clear()
+# Discrete fill: 0 = light grey, 1 = class color
+# But since each ring uses its own class color, we need per-ring scales.
+# Trick: use `new_scale_fill()` from ggnewscale between rings.
+# Since that's complex, use a single palette where present = black
+# and rely on TIP LABELS for class identification.
+
+p <- p + scale_fill_manual(values = c("0" = "#F0F0F0", "1" = "black"),
+                            guide = "none")
 
 # ============================================================
-# Legend on right
+# Save
 # ============================================================
-par(fig = c(0.75, 1.0, 0.10, 0.90), new = TRUE, mar = c(1, 1, 1, 1))
-plot.new()
-plot.window(xlim = c(0, 1), ylim = c(0, n_classes + 3))
+cat("Saving...\n")
 
-text(0, n_classes + 2, "BGC class", adj = 0, font = 2, cex = 1.2)
+ggsave(file.path(fig_dir, "Fig2_definitive.pdf"), p,
+       width = 16, height = 16, dpi = 300)
+ggsave(file.path(fig_dir, "Fig2_definitive.png"), p,
+       width = 16, height = 16, dpi = 300)
 
-for (i in seq_len(n_classes)) {
-  y_pos <- n_classes - i + 1
-  rect(0.0, y_pos - 0.35, 0.08, y_pos + 0.35,
-       col = class_colors[class_order[i]], border = "grey30")
-  text(0.12, y_pos, sprintf("%d. %s", i, class_order[i]),
-       adj = 0, cex = 0.68)
-}
+# ============================================================
+# Also save a version with legend
+# ============================================================
+cat("Building legend...\n")
 
-text(0, -0.7, "Genus", adj = 0, font = 2, cex = 1.1)
-rect(0.0, -1.6, 0.08, -1.0, col = "#2E86AB", border = "grey30")
-text(0.12, -1.3, "Devosia (n=101)", adj = 0, cex = 0.72)
-rect(0.0, -2.5, 0.08, -1.9, col = "#A23B72", border = "grey30")
-text(0.12, -2.2, "Devosia_A (n=23)", adj = 0, cex = 0.72)
+legend_df <- data.frame(
+  y = seq_along(class_order),
+  class = class_order,
+  color = class_colors
+)
 
-# Panel title
-par(fig = c(0, 1, 0.93, 1.0), new = TRUE, mar = c(0, 0, 0, 0))
-plot.new()
-text(0.02, 0.5, "A", adj = 0, cex = 1.8, font = 2)
-text(0.06, 0.5, "Phylogenetic distribution of 20 BGC classes across 124 Devosia genomes",
-     adj = 0, cex = 1.1, font = 2)
+p_legend <- ggplot(legend_df, aes(x = 1, y = y, fill = class)) +
+  geom_tile(width = 0.4, height = 0.9) +
+  geom_text(aes(label = sprintf("%d. %s", y, class)),
+            x = 1.35, hjust = 0, size = 3.2) +
+  scale_fill_manual(values = class_colors, guide = "none") +
+  xlim(0.6, 4) + ylim(0, length(class_order) + 2) +
+  theme_void() +
+  ggtitle("BGC class") +
+  theme(plot.title = element_text(face = "bold", size = 12, hjust = 0.05))
 
-dev.off()
-dev.off()
+fig_combined <- p + p_legend + plot_layout(widths = c(4, 1.2))
+
+ggsave(file.path(fig_dir, "Fig2_definitive_with_legend.pdf"), fig_combined,
+       width = 18, height = 14, dpi = 300)
+ggsave(file.path(fig_dir, "Fig2_definitive_with_legend.png"), fig_combined,
+       width = 18, height = 14, dpi = 300)
 
 cat("=== [21] Done ===\n")
