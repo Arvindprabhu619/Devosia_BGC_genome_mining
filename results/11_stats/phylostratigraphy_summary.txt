@@ -1,0 +1,9 @@
+=== GCF Phylostratigraphy Summary ===
+Total GCFs: 113
+
+Age category distribution:
+  ancient         46
+  intermediate    6
+  old             12
+  recent          11
+  singleton       38
