@@ -43,22 +43,21 @@ if [[ -z "$STAGE" ]]; then
 fi
 
 case "$STAGE" in
-    01)  bash     scripts/01_download_genomes.sh ;;
-    02)  python3  scripts/02_curate_metadata.py ;;
-    03)  bash     scripts/03_build_manifest.sh ;;
-    04)  bash     scripts/04_run_checkm2.sh ;;
-    05)  bash     scripts/05_run_gtdbtk.sh ;;
-    05b) bash     scripts/05b_build_phylogeny.sh ;;
-    06)  bash     scripts/06_run_antismash.sh ;;
-    07)  python3  scripts/07_extract_bgcs.py ;;
-    08)  python3  scripts/08_classify_novelty.py ;;
-    09)  bash     scripts/09_run_bigscape.sh ;;
-    10)  python3  scripts/10_gcf_prevalence.py ;;
-    11)  "$WRAPPER_BIN/run_rscript"  scripts/11_phylogenetic_stats.R ;;
-    12)  python3  scripts/12_prioritize_candidates.py ;;
-    13)  "$WRAPPER_BIN/run_rscript"  scripts/13_make_figures.R ;;
-    14)  python3  scripts/14_ecological_association.py ;;
-    15)  "$WRAPPER_BIN/run_rscript"  scripts/15_phylostratigraphy.R ;;
+    01)  bash     scripts/stages/01_download_genomes.sh ;;
+    02)  python3  scripts/stages/02_curate_metadata.py ;;
+    03)  bash     scripts/stages/03_build_manifest.sh ;;
+    04)  bash     scripts/stages/04_run_checkm2.sh ;;
+    05)  bash     scripts/stages/05_run_gtdbtk.sh ;;
+    05b) bash     scripts/stages/05b_build_phylogeny.sh ;;
+    06)  bash     scripts/stages/06_run_antismash.sh ;;
+    07)  python3  scripts/stages/07_extract_bgcs.py ;;
+    08)  python3  scripts/stages/08_classify_novelty.py ;;
+    09)  bash     scripts/stages/09_run_bigscape.sh ;;
+    10)  python3  scripts/stages/10_gcf_prevalence.py ;;
+    11)  "$WRAPPER_BIN/run_rscript"  scripts/stages/11_phylogenetic_stats.R ;;
+    12)  python3  scripts/stages/12_prioritize_candidates.py ;;
+    13)  python3  scripts/stages/14_ecological_association.py ;;
+    14)  "$WRAPPER_BIN/run_rscript"  scripts/stages/15_phylostratigraphy.R ;;
     *)
         echo "Unknown stage: $STAGE"
         echo "Run 'bash run_stage.sh' for a list of stages."

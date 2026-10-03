@@ -82,52 +82,49 @@ run_stage() {
 
 # ---------- Run pipeline ----------
 [[ "$FROM" < "02" || "$FROM" == "01" ]] && [[ "$TO" > "00" ]] && \
-    run_stage 01 scripts/01_download_genomes.sh "Download Devosia genomes from NCBI"
+    run_stage 01 scripts/stages/01_download_genomes.sh "Download Devosia genomes from NCBI"
 
 [[ "$FROM" < "03" || "$FROM" == "02" ]] && [[ "$TO" > "01" ]] && \
-    run_stage 02 scripts/02_curate_metadata.py "Curate metadata (remove MAGs, duplicates)"
+    run_stage 02 scripts/stages/02_curate_metadata.py "Curate metadata (remove MAGs, duplicates)"
 
 [[ "$FROM" < "04" || "$FROM" == "03" ]] && [[ "$TO" > "02" ]] && \
-    run_stage 03 scripts/03_build_manifest.sh "Build genome manifest"
+    run_stage 03 scripts/stages/03_build_manifest.sh "Build genome manifest"
 
 [[ "$FROM" < "05" || "$FROM" == "04" ]] && [[ "$TO" > "03" ]] && \
-    run_stage 04 scripts/04_run_checkm2.sh "CheckM2 genome quality"
+    run_stage 04 scripts/stages/04_run_checkm2.sh "CheckM2 genome quality"
 
 [[ "$FROM" < "05b" || "$FROM" == "05" ]] && [[ "$TO" > "04" ]] && \
-    run_stage 05 scripts/05_run_gtdbtk.sh "GTDB-Tk taxonomy validation"
+    run_stage 05 scripts/stages/05_run_gtdbtk.sh "GTDB-Tk taxonomy validation"
 
 [[ "$FROM" < "06" || "$FROM" == "05b" ]] && [[ "$TO" > "05" ]] && \
-    run_stage 05b scripts/05b_build_phylogeny.sh "Build genome phylogeny"
+    run_stage 05b scripts/stages/05b_build_phylogeny.sh "Build genome phylogeny"
 
 [[ "$FROM" < "07" || "$FROM" == "06" ]] && [[ "$TO" > "05b" ]] && \
-    run_stage 06 scripts/06_run_antismash.sh "antiSMASH BGC prediction"
+    run_stage 06 scripts/stages/06_run_antismash.sh "antiSMASH BGC prediction"
 
 [[ "$FROM" < "08" || "$FROM" == "07" ]] && [[ "$TO" > "06" ]] && \
-    run_stage 07 scripts/07_extract_bgcs.py "Extract BGCs"
+    run_stage 07 scripts/stages/07_extract_bgcs.py "Extract BGCs"
 
 [[ "$FROM" < "09" || "$FROM" == "08" ]] && [[ "$TO" > "07" ]] && \
-    run_stage 08 scripts/08_classify_novelty.py "Classify novelty vs MIBiG"
+    run_stage 08 scripts/stages/08_classify_novelty.py "Classify novelty vs MIBiG"
 
 [[ "$FROM" < "10" || "$FROM" == "09" ]] && [[ "$TO" > "08" ]] && \
-    run_stage 09 scripts/09_run_bigscape.sh "BiG-SCAPE GCF clustering"
+    run_stage 09 scripts/stages/09_run_bigscape.sh "BiG-SCAPE GCF clustering"
 
 [[ "$FROM" < "11" || "$FROM" == "10" ]] && [[ "$TO" > "09" ]] && \
-    run_stage 10 scripts/10_gcf_prevalence.py "GCF prevalence"
+    run_stage 10 scripts/stages/10_gcf_prevalence.py "GCF prevalence"
 
 [[ "$FROM" < "12" || "$FROM" == "11" ]] && [[ "$TO" > "10" ]] && \
-    run_stage 11 scripts/11_phylogenetic_stats.R "Phylogenetic statistics"
+    run_stage 11 scripts/stages/11_phylogenetic_stats.R "Phylogenetic statistics"
 
 [[ "$FROM" < "13" || "$FROM" == "12" ]] && [[ "$TO" > "11" ]] && \
-    run_stage 12 scripts/12_prioritize_candidates.py "Prioritize candidates"
+    run_stage 12 scripts/stages/12_prioritize_candidates.py "Prioritize candidates"
 
 [[ "$FROM" < "14" || "$FROM" == "13" ]] && [[ "$TO" > "12" ]] && \
-    run_stage 13 scripts/13_make_figures.R "Generate figures"
+    run_stage 13 scripts/stages/14_ecological_association.py "Ecological association"
 
-[[ "$FROM" < "15" || "$FROM" == "14" ]] && [[ "$TO" > "13" ]] && \
-    run_stage 14 scripts/14_ecological_association.py "Ecological association"
-
-[[ "$TO" > "14" ]] && \
-    run_stage 15 scripts/15_phylostratigraphy.R "Phylostratigraphy"
+[[ "$TO" > "13" ]] && \
+    run_stage 14 scripts/stages/15_phylostratigraphy.R "Phylostratigraphy"
 
 echo ""
 echo "============================================================"
