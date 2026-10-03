@@ -17,6 +17,9 @@ This repository contains the complete, reproducible computational pipeline for c
 - **8 main + 6 supplementary figures** with unified color palette
 - **Complete documentation** in `docs/`
 
+- <img width="1224" height="1285" alt="image" src="https://github.com/user-attachments/assets/fcaf793b-12e3-4de0-b310-429dedb22263" />
+
+
 ---
 
 ## Key Results
