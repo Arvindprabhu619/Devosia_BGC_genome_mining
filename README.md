@@ -187,3 +187,33 @@ See CITATION.cff for machine-readable citation info.
 ## License
 
 MIT License. See LICENSE.
+
+---
+
+## Environment Notes
+
+This pipeline was developed and tested on a Linux HPC cluster with the
+following directory structure:
+
+    /dgxb_home/se26plsc001/arvind/Devosia_BGC/
+
+Scripts assume this base path via the `base_dir` variable at the top of
+each script. To run on a different system, edit `base_dir` in each script
+in `scripts/stages/` and `scripts/figures/` to match your local path.
+
+A fresh clone test with symlinked data confirmed that all figure scripts
+(Fig 3-8, S1-S6) regenerate successfully from a clean checkout.
+Fig 1 (BioRender) and Fig 2 (iTOL) are documented as manual workflows.
+
+**Portability roadmap** (future work):
+- Replace hardcoded paths with `Sys.getenv("DEVOSIA_ROOT")`
+- Add a Docker/Singularity image for containerized reproducibility
+
+## Data Availability
+
+- **Code**: This GitHub repository
+- **Processed data**: `results/` (small tables tracked in git)
+- **Raw data**: Genome accessions listed in `data/metadata/genome_manifest.tsv`;
+  regenerate via `bash run_pipeline.sh`
+- **Large outputs** (antiSMASH, BiG-SCAPE, databases): excluded from git via `.gitignore`;
+  regenerate via the pipeline
