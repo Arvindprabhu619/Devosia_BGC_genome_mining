@@ -190,10 +190,10 @@ bash run_figures.sh
 
 Fig 1 and Fig 2 are manual workflows.
 
-Fig 2 inputs are available in:
+Fig 2 inputs are in `results/itOL_exports/`
 
 ```text
-itol_exports/
+results/itOL_exports/
 ```
 
 ---
