@@ -1,4 +1,4 @@
-#!/usr/bin/env Rscript
+#!/dgxb_home/se26plsc001/miniconda3/envs/gtdbtk/bin/Rscript
 # ============================================================
 # scripts/13_make_figures.R
 # ============================================================

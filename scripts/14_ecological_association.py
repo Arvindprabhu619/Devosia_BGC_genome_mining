@@ -69,7 +69,7 @@ def extract_niche_map():
                 acc = rec.get("accession", "")
                 if not acc:
                     continue
-                bs = rec.get("biosample", {}) or {}
+                bs = ((rec.get("assembly_info") or {}).get("biosample") or {})
                 attrs = bs.get("attributes", []) or []
                 texts = [a.get("value", "") for a in attrs if a.get("value")]
                 ai = rec.get("assembly_info", {}) or {}

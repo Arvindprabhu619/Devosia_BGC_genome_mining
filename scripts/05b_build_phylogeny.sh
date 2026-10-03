@@ -43,7 +43,7 @@ if [[ ! -f "${RES_PHYLO}/align_all/align/gtdbtk.bac120.user_msa.fasta.gz" ]]; th
     echo "[05b.2] Aligning markers (~15-30 min)..."
     rm -rf "${RES_PHYLO}/align_all"
     $GTDBTK align \
-        --identify_dir "${RES_PHYLO}/identify_all/identify" \
+        --identify_dir "${RES_PHYLO}/identify_all" \
         --out_dir "${RES_PHYLO}/align_all" \
         --cpus "$N_CPUS"
 else

@@ -51,3 +51,20 @@ logs/*
 !results/09_prioritization/
 !figures/
 !tables/
+
+# Large BiG-SCAPE files
+results/09_bigscape/raw_output/*.log
+results/09_bigscape/raw_output/*.db
+
+# Big data files - keep out of git
+results/05_gtdbtk/gtdbtk_output/
+results/05_phylogeny/align_all/
+results/05_phylogeny/identify_all/
+results/05b_phylogeny/align_all/
+results/05b_phylogeny/identify_all/
+results/06_antismash/raw_output/
+results/06_antismash/input/
+results/06_antismash/logs/
+results/09_bigscape/input/
+results/09_bigscape/raw_output/
+*.log

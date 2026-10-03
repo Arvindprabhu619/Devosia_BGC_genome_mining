@@ -54,11 +54,11 @@ case "$STAGE" in
     08)  python3  scripts/08_classify_novelty.py ;;
     09)  bash     scripts/09_run_bigscape.sh ;;
     10)  python3  scripts/10_gcf_prevalence.py ;;
-    11)  Rscript  scripts/11_phylogenetic_stats.R ;;
+    11)  "$WRAPPER_BIN/run_rscript"  scripts/11_phylogenetic_stats.R ;;
     12)  python3  scripts/12_prioritize_candidates.py ;;
-    13)  Rscript  scripts/13_make_figures.R ;;
+    13)  "$WRAPPER_BIN/run_rscript"  scripts/13_make_figures.R ;;
     14)  python3  scripts/14_ecological_association.py ;;
-    15)  Rscript  scripts/15_phylostratigraphy.R ;;
+    15)  "$WRAPPER_BIN/run_rscript"  scripts/15_phylostratigraphy.R ;;
     *)
         echo "Unknown stage: $STAGE"
         echo "Run 'bash run_stage.sh' for a list of stages."
